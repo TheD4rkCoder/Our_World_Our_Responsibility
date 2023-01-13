@@ -1,0 +1,47 @@
+Welche Industrie ist für die meisten Emissionen verantwortlich?;Energieindustrie;Noch einmal würfeln;;;;;;;;END
+Welches Land verursacht die geringsten CO2 Emissionen pro Kopf? (Stand 2020);Portugal;-5 EcoScore;;Schweiz;Schweden;Italien;;;+10 EcoScore;END
+Welches Land verursacht die meisten CO2 Emissionen pro Kopf? (Stand 2020);China;;;Katar;USA;Saudi Arabien;4000 Euro;;;END
+Wie viel Prozent der Weltbevölkerung leben in extremer Armut? (Stand 2020) Extreme Armut ist mit weniger als 1,9$ pro Tag definiert.;9.5%(Spielraum von +-5%);-5 EcoScore;;;;;;;;END
+Herrschte in der dokumentierten Geschichte je Frieden auf der ganzen Welt?;Nein;;Bewege dich zur Polizeistation und setze anschließend 2 Runden aus.;;;;;;;END
+Was würdest du erwarten, wenn jemand dir Freiheit verspricht? (Offene Frage);;1000-5000 Euro;;;;;;;;END
+Wie ist deine Meinung zur Frauenquote bzw. zu einer Geschlechterquote? (Offene Frage);;100-500 Euro Gehaltserhöhung;;;;;;;;END
+Wie viele Kriege herrschten 2021 auf der Welt?;22; Noch einmal Würfeln;;30;8;100;;;;END
+Wie viele Mitgliedsländer hat die EU?;27;-5 EcoScore;;30;15;22;;+5 EcoScore;;END
+Wie viel würde das Beenden des Welthungers bis 2030 nach verschiedenen Studien zusätzlich jährlich kosten? Derzeit gibt die internationale Gesellschaft jährlich 12 Milliarden Dollar aus. (Antwort in Milliarden Dollar);14 (Spielraum von +-5);-5 EcoScore;;;;;;;;END
+Wie viel Fläche an Solarplatten wäre nötig, um die Produktion eines durchschnittlichen Atomkraftwerks zu ersetzen?;66 Quadratkilometer;Gehe 7 Felder weiter;;6 Quadratkilometer;200000 Quadratmeter;2000 Quadratkilometer;;;Setze für eine Runde aus;END
+Finde gemeinsam mit einem Mitspieler deiner Wahl 5 Dinge, die du in deinem Alltag ändern könntest, um nachhaltiger zu leben. Dein Mitspieler erhält 50% der Belohnung. (offene Frage);;-2 EcoScore pro Änderung;;;;;;;;END
+Welche Länder sind am stärkstenvon der Globalen Erwärmung bedroht?;Länder am Meer und Länder am Äquator;Noch einmal Würfeln. (Eine der 2 Antworten reicht aus);;;;;;;;END
+Welche Energiequelle könnte in Zukunft zusätzlich zu fossilen Brennstoffen und Elektrizität als Mittel für die Betreibung von Fahrzeugen dienen?;Wasserstoff;-5 EcoScore;+5 EcoScore;;;;;;;END
+Was ist zwischen Elektromotoren und herkömmlichen Verbrennern, laut deinem Wissensstand und deiner Meinung, für die Umwelt besser? (offene Frage);;-(1 - 5) EcoScore;;;;;;;;END
+Ist Inflation für den normalen Bürger etwas Positives?;Nein;Nochmal Würfeln;Dein Einkommen wird für 4 Runden halbiert;;;;;;;END
+Weshalb wirkt sich die Massenproduktion von z.B. Obst und Gemüse auf das Klima aus?;Für Plantagen benötigt es viel Platz, welcher häufig durch das Roden von Urwäldern generiert wird. Dadurch wird die Natur enorm beschädigt und viele Emissionen freigegeben.;5000 Euro;;;;;;;;END
+Wie wird die Protestaktion genannt, die vor allem von Schülern teilweise wöchentlich veranstaltet wird?;Fridays for Future;-2 EcoScore;-2000 Euro;;;;;;;END
+Wer war maßgebend für wöchentliche Protestaktionen, bei denen auch viele Schüler Südtirols teilnehmen?;Greta Thunberg;-1 EcoScore + 5000 Euro;-1000 Euro;;;;;;;END
+Ist die Handelsweise eines jeden Einzelnen ausschlaggebend auf die Entwicklung unseres Klimaproblems? (offene Frage);;-5 - 5 EcoScore;;;;;;;;END
+Macht es mit Blick auf die Nachhaltigkeit einen Unterschied, in welcher Bank man sein Euro anlegt? Erkläre.;Ja, da Banken den Großteil ihres Kapitals investieren. Viele investieren in die fossile Industrie wegen der guten Rendite.;4000 Euro;10 EcoScore;;;;;;;END
+Was ist die größte Quelle der Treibhausgase unter diesen Optionen?;Transportation;;;Landwirtschaft und Tiernahrung;Industrie;Abfall;;Noch einmal Würfeln;;END
+Die 17 Global Goals gehören zu welchem globalen Vertrag?;Die Agenda 2030;-5 EcoScore;;;;;;;;END
+Welches der Folgenden ist ein Treibhausgas?;CO2;-1 EcoScore;;CH4;Wasserdampf;Alle zuvor genannten;-1 EcoScore;-1 EcoScore;-5 EcoScore;END
+Wie viele Kinder sterben pro Tag durch das Leben in Armut?;22.000 (Spielraum +-10000);4000 Euro;;;;;;;;END
+Welcher Anteil der Menschheit (in %) lebt ohne Elektrizität?;25% (5% Spielraum);-5 EcoScore;+3 EcoScore;;;;;;;END
+Die reichsten 1,2% der Weltbevölkerung besaßen 2020 welchen Anteil des weltweiten Vermögens (in %)?;47,8% (5% Spielraum);-5 EcoScore + 7500 Euro;;;;;;;;END
+Die ärmsten 53 Prozent der Weltbevölkerung besaßen 2020 welchen Anteil des weltweiten Vermögens (in %)?;1.1% (3% Spielraum); Nochmal Würfeln;(bei über 20%) -5000 Euro + 5 EcoScore;;;;;;;END
+Wahr oder falsch: Umweltkatastrophen wie starker Regen oder Hurricanes haben keine Verbindung zum Klimawandel.;Falsch;Nochmal Würfeln;+10 EcoScore;;;;;;;END
+Wahr oder falsch: Die Agenda 2030 ist eine Anleitung für eine Nachhaltige Zukunft.;Falsch;-3 EcoScore;+5 EcoScore;;;;;;;END
+Von wem gehen die Global Goals aus?;United Nations;Nochmal Würfeln;+5 EcoScore;;;;;;;END
+Wie lange kann Kohlendioxid in der Atmosphäre verbleiben?;Bis zu einem Jahr;;-1000 Euro;bis zu 10 Jahre;bis zu 100 Jahre;bis zu 1000 Jahre;;2000 Euro;;END
+Wo wird am meisten Lithium abgebaut?;Australien;1000 Euro;;Chile;China;Italien;;;;END
+Welche Umweltorganisationen gibt es nicht?;Greenpeace;;+10 EcoScore;Robin Ocean;Earth First;NABU;-3 EcoScore;+10 EcoScore;+10 EcoScore;END
+Warum wird Starkregen immer heftiger?;Das liegt daran, dass durch den Klimawandel die Lufttemperatur steigt. Dadurch entsteht mehr Wasserdampf. Warme Luft kann mehr Feuchtigkeit aufnehmen. Je höher der Wasserdampfgehalt ist, desto mehr Wasser können die Wolken aufnehmen und umso stärker sind die Niederschläge am Boden.;5000 Euro;;;;;;;;END
+Werden Elektroautos deiner Meinung nach die Zukunft sein Ja oder Nein? (offene Frage);;Pro Argument 500 Euro (Maximal 5);;;;;;;;END
+Sind die Aktionen der Gruppe “Letzte Generation” deiner Meinung nach zu radikal Ja oder Nein? (offene Frage);;Pro Argument 500 Euro (Maximal 5);;;;;;;;END
+Wie kann man dem Klimawandel auf unternehmerischer oder politischer Ebene  entgegenwirken? (offene Frage);;1000 - 5000 Euro;;;;;;;;END
+Warum ist es günstig für das Klima, wenn man seinen Fleischkonsum verringert?;Wenn man weniger Fleisch konsumiert, muss man weniger Tiere halten und somit reduziert man die Nutzung von Ressourcen, wie Boden, Wasser und Energie.;-5 Ecoscore;;;;;;;;END
+Fleisch macht 9% unserer gesamten Ernährung aus. Wie viel der ernährungsbedingten Treibhausgas-Emissionen kommmen aus der Fleischproduktion?;43%;-5 EcoScore;;22%;9%;81,2%;;+10 EcoScore;;END
+Wie groß ist die Waldfläche, welche durchschnittlich pro Tag gerodet wird (in Fußballfeldern)?;420;;;4340;55;5034;Nochmal Würfeln;;;END
+Wieso ist es schlecht für das Klima, wenn Permafrostböden auftauen?;Durch das Auftauen wird Methan, Wasserdampf und Kohlendioxid freigesetzt.;;;Da man nicht mehr Schlittschuh laufen kann.;Es sorgt dafür, dass eine andere Vegetation entsteht;Es sorgt für das Wachsen der Eisberge;+15 EcoScore;+15 EcoScore;+15 EcoScore;END
+Welches Treibhausgas trägt am stärksten zum Klimawandel bei?;Lachgas;;+5 EcoScore;Methangas;Kohlendioxid;Stickstoff;+5 EcoScore;-5 EcoScore;+5 EcoScore;END
+Was haben Sie von dem Klimaaktivismus in letzter Zeit mitbekommen? (Offene Frage);;Pro Ereignis +500 Euro (Maximal 5);;;;;;;;END
+War das Klima in der Geschichte immer konstant, bevor die Menschen Treibhausgase erzeugten?;Nein;;+10 EcoScore;;;;;;;END
+Welche Art von Zielen umfasst die Global Goals?;Wirtschaftliche Ziele;;;Umweltziele;Soziale, wirtschaftliche und Umweltziele;Militärstrategische Ziele;;5000 Euro;+40 EcoScore;END
+Bis zu welchem Jahr haben die Vereinten Nationen sich zum Erreichen der Global Goals verpflichtet?;2050;;;2040;2030;2033;;2000 Euro;;END
