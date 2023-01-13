@@ -16,6 +16,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.reflect.Type;
 import java.time.temporal.TemporalQueries;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -57,8 +58,39 @@ public class MainActivity extends AppCompatActivity {
         eventCardChip = findViewById(R.id.eventCardChip);
         questionCardChip = findViewById(R.id.questionCardChip);
 
-        eventCardChip.setTypeface(null, Typeface.BOLD);
-        questionCardChip.setTypeface(null, Typeface.BOLD);
+        View.OnClickListener chipNotBold = new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                eventCardChip.setTypeface(null, Typeface.NORMAL);
+                questionCardChip.setTypeface(null, Typeface.NORMAL);
+            }
+        };
+        View.OnClickListener eventChipBold = new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (eventCardChip.getTypeface() != null && eventCardChip.getTypeface().isBold()) {
+                    eventCardChip.setTypeface(null, Typeface.NORMAL);
+                    return;
+                }
+                eventCardChip.setTypeface(null, Typeface.BOLD);
+                questionCardChip.setTypeface(null, Typeface.NORMAL);
+            }
+        };
+        View.OnClickListener questionChipBold = new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (questionCardChip.getTypeface() != null && questionCardChip.getTypeface().isBold()) {
+                    questionCardChip.setTypeface(null, Typeface.NORMAL);
+                    return;
+                }
+                eventCardChip.setTypeface(null, Typeface.NORMAL);
+                questionCardChip.setTypeface(null, Typeface.BOLD);
+            }
+        };
+        jobsChip.setOnClickListener(chipNotBold);
+        educatedJobsChip.setOnClickListener(chipNotBold);
+        eventCardChip.setOnClickListener(eventChipBold);
+        questionCardChip.setOnClickListener(questionChipBold);
 
         View.OnClickListener drawCardClick = new View.OnClickListener() {
             @Override

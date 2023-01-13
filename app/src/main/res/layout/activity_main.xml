@@ -60,8 +60,7 @@
             android:layout_height="300dp"
             android:backgroundTint="#00FFFFFF"
             android:checkable="true"
-            android:text="     Fragenkarte"
-            android:textStyle="bold" />
+            android:text="     Fragenkarte" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/eventCardChip"
@@ -69,8 +68,7 @@
             android:layout_height="300dp"
             android:backgroundTint="#00FFFFFF"
             android:checkable="true"
-            android:text="     Ereigniskarte"
-            android:textStyle="bold" />
+            android:text="     Ereigniskarte" />
     </com.google.android.material.chip.ChipGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
