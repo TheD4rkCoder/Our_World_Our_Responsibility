@@ -7,68 +7,24 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/drawCardButton"
+        android:id="@+id/cardButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="100dp"
-        android:text="Karte ziehen"
+        android:text="@string/karten_button_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/chipGroup" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:layout_marginTop="100dp"
+    <Button
+        android:id="@+id/playerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/spieler_button_text"
+        app:layout_constraintBottom_toTopOf="@+id/cardButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/chipGroup"
-        app:srcCompat="@drawable/back_of_cards" />
-
-    <com.google.android.material.chip.ChipGroup
-        android:id="@+id/chipGroup"
-        android:layout_width="300dp"
-        android:layout_height="400dp"
-        android:layout_marginBottom="100dp"
-        android:background="#00FFFFFF"
-        android:backgroundTint="#00FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:singleSelection="true">
-
-        <com.google.android.material.chip.Chip
-            android:id="@+id/jobsChip"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:checkable="true"
-            android:text="Beruf" />
-
-        <com.google.android.material.chip.Chip
-            android:id="@+id/educatedJobsChip"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:checkable="true"
-            android:text="Beruf (nach Studium)" />
-
-        <com.google.android.material.chip.Chip
-            android:id="@+id/questionCardChip"
-            android:layout_width="145dp"
-            android:layout_height="300dp"
-            android:backgroundTint="#00FFFFFF"
-            android:checkable="true"
-            android:text="     Fragenkarte" />
-
-        <com.google.android.material.chip.Chip
-            android:id="@+id/eventCardChip"
-            android:layout_width="145dp"
-            android:layout_height="300dp"
-            android:backgroundTint="#00FFFFFF"
-            android:checkable="true"
-            android:text="     Ereigniskarte" />
-    </com.google.android.material.chip.ChipGroup>
-
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
