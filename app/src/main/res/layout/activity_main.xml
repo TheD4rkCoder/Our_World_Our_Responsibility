@@ -8,8 +8,8 @@
 
     <Button
         android:id="@+id/cardButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="204dp"
+        android:layout_height="124dp"
         android:layout_marginBottom="100dp"
         android:text="@string/karten_button_text"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,12 +19,25 @@
 
     <Button
         android:id="@+id/playerButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="204dp"
+        android:layout_height="124dp"
         android:layout_marginBottom="24dp"
         android:text="@string/spieler_button_text"
         app:layout_constraintBottom_toTopOf="@+id/cardButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Willkommen"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

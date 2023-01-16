@@ -6,6 +6,7 @@ public class Player {
     private Integer money = 0;
     private Integer salary = 0;
     public Integer ecoScore = 0;
+    public boolean university = false;
     private boolean creationCompleted = false;
 
     public boolean isCreationCompleted() {

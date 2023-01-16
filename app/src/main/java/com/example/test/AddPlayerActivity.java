@@ -7,7 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Switch;
 import android.widget.Toast;
+import java.util.Collections;
 
 public class AddPlayerActivity extends AppCompatActivity {
 
@@ -22,39 +24,36 @@ public class AddPlayerActivity extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(p.ecoScore == null){
-                    Toast.makeText(getApplicationContext(), "I gibs au", Toast.LENGTH_LONG).show();
-                    return;
-                }
                 EditText name = findViewById(R.id.nameInput);
-                EditText job = findViewById(R.id.jobInput);
-                EditText money = findViewById(R.id.moneyInput);
-                EditText salary = findViewById(R.id.salaryInput);
-                EditText ecoScore = findViewById(R.id.ecoScoreInput);
-                if(name.getText().toString().equals("Name")
-                || job.getText().toString().equals("Beruf")
-                || money.getText().toString().equals("Kontostand")
-                || salary.getText().toString().equals("Gehalt")
-                || ecoScore.getText().toString().equals("EcoScore")){
+                Switch s = findViewById(R.id.universitySwitch);
+                if(name.getText().toString().equals("Name")){
                     Toast.makeText(getApplicationContext(), "Bitte füllen sie alle Felder korrekt aus!", Toast.LENGTH_LONG).show();
                     return;
                 }
-                int moneyVal = 0;
-                int salaryVal = 0;
-                int ecoScoreVal = 0;
-                try{
-                    moneyVal = Integer.parseInt(money.getText().toString());
-                    salaryVal = Integer.parseInt(salary.getText().toString());
-                    ecoScoreVal = Integer.parseInt(ecoScore.getText().toString());
-                }catch(NumberFormatException | NullPointerException e){
-                    Toast.makeText(getApplicationContext(), "Bitte füllen sie alle Felder korrekt aus!", Toast.LENGTH_LONG).show();
-                    return;
+                Job j;
+                if(s.isChecked()){
+                    p.university = true;
+                    j = MainActivity.educatedJobs.get(Job.currentCardUni);
+                    if (Job.currentCardUni >= MainActivity.educatedJobs.size()) {
+                        Collections.shuffle(MainActivity.educatedJobs);
+                        Job.currentCardUni = 0;
+                    }
+                    Job.currentCardUni++;
+                }else{
+                    j = MainActivity.jobs.get(Job.currentCard);
+                    if (Job.currentCard >= MainActivity.jobs.size()) {
+                        Collections.shuffle(MainActivity.jobs);
+                        Job.currentCard = 0;
+                    }
+                    Job.currentCard++;
                 }
                 p.setName(name.getText().toString());
-                p.setJob(job.getText().toString());
-                p.setMoney(moneyVal);
-                p.setSalary(salaryVal);
-                p.setEcoScore(ecoScoreVal);
+                p.setMoney(j.money);
+                p.setSalary(j.salary);
+                p.setEcoScore(j.ecoScore);
+                p.university = j.needsUniversity;
+                p.setJob(j.name);
+
                 p.completeCreation();
                 Intent i = new Intent(getApplicationContext(), PlayerMenuActivity.class);
                 startActivity(i);

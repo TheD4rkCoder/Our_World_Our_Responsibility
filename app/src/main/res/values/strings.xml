@@ -9,6 +9,6 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="spieler_button_text">Spieler</string>
-    <string name="karten_button_text">Karten</string>
+    <string name="spieler_button_text">Spieler Übersicht</string>
+    <string name="karten_button_text">Karten ziehen</string>
 </resources>
