@@ -7,7 +7,7 @@ Anwalt;Stadt;T;1800;2900;30
 Praktikant;Stadt;F;2300;700;10
 Immobilienmakler;Stadt;T;4600;2100;35
 Politiker;Stadt;F;500;5600;50
-Polizist;Stadt;F4500;2000;25
+Polizist;Stadt;F;4500;2000;25
 Bauer;Land;F;6700;1300;38
 Handwerker;Land;F;7000;1600;31
 Ladenbesitzer;Land;F;6600;1700;37
@@ -26,4 +26,4 @@ Plantagenbesitzer;Urwald;F;6200;1500;50
 Plantagenarbeiter;Urwald;F;2500;400;29
 Umweltschützer;Urwald;F;25000;200;15
 Holzfäller;Urwald;F;6000;1700;30
-Minenarbeiter;Urwald;F2400;2000;40
+Minenarbeiter;Urwald;F;2400;2000;40

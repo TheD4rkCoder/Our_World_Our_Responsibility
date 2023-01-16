@@ -21,18 +21,13 @@ public class CardActivity extends AppCompatActivity {
 
     static ArrayList<Questions> questions = new ArrayList<>();
     static ArrayList<Event> events = new ArrayList<>();
-    static ArrayList<Job> jobs = new ArrayList<>();
-    static ArrayList<Job> educatedJobs = new ArrayList<>();
-    Chip jobsChip;
-    Chip educatedJobsChip;
-    Chip eventCardChip;
-    Chip questionCardChip;
     TextView cardTitle;
     TextView cardText;
     TextView questionAnswers;
     Button continueButton;
 
-    Button drawCardButton;
+    Button questionCardButton;
+    Button eventCardButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,87 +39,26 @@ public class CardActivity extends AppCompatActivity {
         if (!Event.hasReadFile) {
             readEventFile();
         }
-        if (!Job.hasReadFile) {
-            readJobFile();
-        }
+        eventCardButton = findViewById(R.id.EventCardButton);
+        questionCardButton = findViewById(R.id.EventCardButton);
 
-        drawCardButton = findViewById(R.id.drawCardButton);
-        jobsChip = findViewById(R.id.jobsChip);
-        educatedJobsChip = findViewById(R.id.educatedJobsChip);
-        eventCardChip = findViewById(R.id.eventCardChip);
-        questionCardChip = findViewById(R.id.questionCardChip);
+        View.OnClickListener drawQuestionCardClick = new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                questionCard();
+            }
+        };
 
-        View.OnClickListener chipNotBold = new View.OnClickListener() {
+        View.OnClickListener drawEventCardClick = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                eventCardChip.setTypeface(null, Typeface.NORMAL);
-                questionCardChip.setTypeface(null, Typeface.NORMAL);
+                eventCard();
             }
         };
-        View.OnClickListener eventChipBold = new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (eventCardChip.getTypeface() != null && eventCardChip.getTypeface().isBold()) {
-                    eventCardChip.setTypeface(null, Typeface.NORMAL);
-                    return;
-                }
-                eventCardChip.setTypeface(null, Typeface.BOLD);
-                questionCardChip.setTypeface(null, Typeface.NORMAL);
-            }
-        };
-        View.OnClickListener questionChipBold = new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (questionCardChip.getTypeface() != null && questionCardChip.getTypeface().isBold()) {
-                    questionCardChip.setTypeface(null, Typeface.NORMAL);
-                    return;
-                }
-                eventCardChip.setTypeface(null, Typeface.NORMAL);
-                questionCardChip.setTypeface(null, Typeface.BOLD);
-            }
-        };
-        jobsChip.setOnClickListener(chipNotBold);
-        educatedJobsChip.setOnClickListener(chipNotBold);
-        eventCardChip.setOnClickListener(eventChipBold);
-        questionCardChip.setOnClickListener(questionChipBold);
-
-        View.OnClickListener drawCardClick = new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (jobsChip.isChecked()) {
-                    jobCard();
-                } else if (educatedJobsChip.isChecked()) {
-                    educatedJobCard();
-                } else if (eventCardChip.isChecked()) {
-                    eventCard();
-                } else if (questionCardChip.isChecked()) {
-                    questionCard();
-                }
-            }
-        };
-        drawCardButton.setOnClickListener(drawCardClick);
+        eventCardButton.setOnClickListener(drawEventCardClick);
+        questionCardButton.setOnClickListener(drawQuestionCardClick);
     }
 
-    protected void readJobFile() {
-
-        Job.hasReadFile = true;
-
-        try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("berufe.txt")))) {
-            for (int i = 0; i < 29; i++) {
-                String[] temp = br.readLine().split(";");
-                if (temp[2].equals("T")) {
-                    educatedJobs.add(new Job(true, temp[0], temp[1]));
-                } else {
-                    jobs.add(new Job(false, temp[0], temp[1]));
-                }
-            }
-        } catch (IOException e) {
-            throw new RuntimeException();
-        }
-
-        Collections.shuffle(jobs);
-        Collections.shuffle(educatedJobs);
-    }
 
     protected void readEventFile() {
 
@@ -198,64 +132,6 @@ public class CardActivity extends AppCompatActivity {
         cardText.setText(events.get(Event.currentCard).text.toCharArray(), 0, events.get(Event.currentCard).text.length());
         cardText.setTextSize(15);
         Event.currentCard++;
-    }
-
-    protected void jobCard() {
-        setContentView(R.layout.activity_text);
-        continueButton = findViewById(R.id.continueButton);
-        cardTitle = findViewById(R.id.cardTitle);
-        cardText = findViewById(R.id.cardText);
-        questionAnswers = findViewById(R.id.answersText);
-
-        View.OnClickListener continueClick = new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), CardActivity.class);
-                startActivity(i);
-            }
-        };
-        continueButton.setOnClickListener(continueClick);
-
-        if (Job.currentCard >= jobs.size()) {
-            Collections.shuffle(jobs);
-            Job.currentCard = 0;
-        }
-
-        continueButton.setText("weiter".toCharArray(), 0, 6);
-        cardTitle.setText(jobs.get(Job.currentCard).name.toCharArray(), 0, jobs.get(Job.currentCard).name.length());
-        cardTitle.setTextSize(20);
-        cardText.append("Startbereich:\n" + jobs.get(Job.currentCard).location);
-        cardText.setTextSize(15);
-        Job.currentCard++;
-    }
-
-    protected void educatedJobCard() {
-        setContentView(R.layout.activity_text);
-        continueButton = findViewById(R.id.continueButton);
-        cardTitle = findViewById(R.id.cardTitle);
-        cardText = findViewById(R.id.cardText);
-        questionAnswers = findViewById(R.id.answersText);
-
-        View.OnClickListener continueClick = new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), CardActivity.class);
-                startActivity(i);
-            }
-        };
-        continueButton.setOnClickListener(continueClick);
-
-        if (Job.currentCardUni >= educatedJobs.size()) {
-            Collections.shuffle(educatedJobs);
-            Job.currentCardUni = 0;
-        }
-
-        continueButton.setText("weiter".toCharArray(), 0, 6);
-        cardTitle.setText(educatedJobs.get(Job.currentCard).name.toCharArray(), 0, educatedJobs.get(Job.currentCard).name.length());
-        cardTitle.setTextSize(20);
-        cardText.append("Startbereich:\n" + educatedJobs.get(Job.currentCard).location);
-        cardText.setTextSize(15);
-        Job.currentCard++;
     }
 
     protected void questionCard() {
