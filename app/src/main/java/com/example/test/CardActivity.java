@@ -3,6 +3,7 @@ package com.example.test;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
@@ -40,7 +41,7 @@ public class CardActivity extends AppCompatActivity {
             readEventFile();
         }
         eventCardButton = findViewById(R.id.EventCardButton);
-        questionCardButton = findViewById(R.id.EventCardButton);
+        questionCardButton = findViewById(R.id.QuestionCardButton);
 
         View.OnClickListener drawQuestionCardClick = new View.OnClickListener() {
             @Override
