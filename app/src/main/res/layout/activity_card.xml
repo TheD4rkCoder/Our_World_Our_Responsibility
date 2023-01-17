@@ -8,8 +8,8 @@
 
     <Button
         android:id="@+id/QuestionCardButton"
-        android:layout_width="180dp"
-        android:layout_height="270dp"
+        android:layout_width="170dp"
+        android:layout_height="255dp"
         android:background="#00FFFFFF"
         android:textAllCaps="false"
         android:textColor="#000000"
@@ -19,8 +19,8 @@
 
     <Button
         android:id="@+id/EventCardButton"
-        android:layout_width="180dp"
-        android:layout_height="270dp"
+        android:layout_width="170dp"
+        android:layout_height="255dp"
         android:background="#00FFFFFF"
         android:textAllCaps="false"
         android:textColor="#000000"
@@ -29,9 +29,9 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="180dp"
-        android:layout_height="270dp"
-        android:layout_marginEnd="200dp"
+        android:layout_width="170dp"
+        android:layout_height="255dp"
+        android:layout_marginEnd="190dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,9 +40,9 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="180dp"
-        android:layout_height="270dp"
-        android:layout_marginStart="200dp"
+        android:layout_width="170dp"
+        android:layout_height="255dp"
+        android:layout_marginStart="190dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
