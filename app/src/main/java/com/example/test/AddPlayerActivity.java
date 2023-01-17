@@ -39,6 +39,7 @@ public class AddPlayerActivity extends AppCompatActivity {
                         Job.currentCardUni = 0;
                     }
                     Job.currentCardUni++;
+                    p.skipRounds = 4;
                 }else{
                     j = MainActivity.jobs.get(Job.currentCard);
                     if (Job.currentCard >= MainActivity.jobs.size()) {
@@ -53,6 +54,7 @@ public class AddPlayerActivity extends AppCompatActivity {
                 p.setEcoScore(j.ecoScore);
                 p.university = j.needsUniversity;
                 p.setJob(j.name);
+                p.setLocation(j.location);
 
                 p.completeCreation();
                 Intent i = new Intent(getApplicationContext(), PlayerMenuActivity.class);

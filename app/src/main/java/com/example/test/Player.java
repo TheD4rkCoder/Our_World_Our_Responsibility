@@ -3,6 +3,9 @@ package com.example.test;
 public class Player {
     private String name;
     private String job;
+    private String location;
+    public int skipRounds;
+
     private Integer money = 0;
     private Integer salary = 0;
     public Integer ecoScore = 0;
@@ -11,6 +14,13 @@ public class Player {
 
     public boolean isCreationCompleted() {
         return creationCompleted;
+    }
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
     }
 
     public String getName() {
