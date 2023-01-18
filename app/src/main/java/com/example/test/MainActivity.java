@@ -3,14 +3,11 @@ package com.example.test;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.Spinner;
 
 import java.io.BufferedReader;
@@ -34,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     private Locale locale = null;
-    private String language = null;
 
     @Override
     public void onConfigurationChanged(Configuration newConfig)
@@ -89,7 +85,6 @@ public class MainActivity extends AppCompatActivity {
                         config.locale = locale;
                         getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
 
-                        language = lang;
                         Intent j = new Intent(getApplicationContext(), MainActivity.class);
                         startActivity(j);
                     }else if(lang.equals("it")){
@@ -98,7 +93,6 @@ public class MainActivity extends AppCompatActivity {
                         config.locale = locale;
                         getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
 
-                        language = lang;
                         Intent j = new Intent(getApplicationContext(), MainActivity.class);
                         startActivity(j);
                     }
