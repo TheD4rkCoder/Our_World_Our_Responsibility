@@ -34,10 +34,10 @@ public class CardActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card);
-        if (!Questions.hasReadFile) {
+        if (!Questions.hasReadFile || !Questions.language.equals(MainActivity.language)) {
             readQuestionFile();
         }
-        if (!Event.hasReadFile) {
+        if (!Event.hasReadFile|| !Event.language.equals(MainActivity.language)) {
             readEventFile();
         }
         eventCardButton = findViewById(R.id.EventCardButton);
@@ -64,14 +64,28 @@ public class CardActivity extends AppCompatActivity {
     protected void readEventFile() {
 
         Event.hasReadFile = true;
+        Event.language = MainActivity.language;
 
-        try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("ereignisse.txt")))) {
-            for (int i = 0; i < 60; i++) {
-                String[] temp = br.readLine().split(";");
-                events.add(new Event(temp[0], temp[1]));
+        if(MainActivity.language.equals("it")){
+            events.clear();
+            try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("eventi.txt")))) {
+                for (int i = 0; i < 60; i++) {
+                    String[] temp = br.readLine().split(";");
+                    events.add(new Event(temp[0], temp[1]));
+                }
+            } catch (IOException e) {
+                throw new RuntimeException();
             }
-        } catch (IOException e) {
-            throw new RuntimeException();
+        }else if(MainActivity.language.equals("de")) {
+            events.clear();
+            try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("ereignisse.txt")))) {
+                for (int i = 0; i < 60; i++) {
+                    String[] temp = br.readLine().split(";");
+                    events.add(new Event(temp[0], temp[1]));
+                }
+            } catch (IOException e) {
+                throw new RuntimeException();
+            }
         }
 
         Collections.shuffle(events);
@@ -80,27 +94,54 @@ public class CardActivity extends AppCompatActivity {
     protected void readQuestionFile() {
 
         Questions.hasReadFile = true;
+        Questions.language = MainActivity.language;
 
-        try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("domande.txt")))) {
-            for (int i = 0; i < 47; i++) {
-                String[] temp = br.readLine().split(";"), possibleAnswers, rewards;
-                // read file into arraylist Questions
-                if (!temp[6].equals("")) {
-                    possibleAnswers = new String[]{temp[1], temp[4], temp[5], temp[6]};
-                    rewards = new String[]{temp[2], temp[7], temp[8], temp[9]};
-                } else if (!temp[4].equals("")) {
-                    possibleAnswers = new String[]{temp[1], temp[4]};
-                    rewards = new String[]{temp[2]};
-                } else {
-                    possibleAnswers = new String[]{temp[1]};
-                    rewards = new String[]{temp[2]};
+        if(MainActivity.language.equals("it")) {
+            questions.clear();
+            try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("domande.txt")))) {
+                for (int i = 0; i < 47; i++) {
+                    String[] temp = br.readLine().split(";"), possibleAnswers, rewards;
+                    // read file into arraylist Questions
+                    if (!temp[6].equals("")) {
+                        possibleAnswers = new String[]{temp[1], temp[4], temp[5], temp[6]};
+                        rewards = new String[]{temp[2], temp[7], temp[8], temp[9]};
+                    } else if (!temp[4].equals("")) {
+                        possibleAnswers = new String[]{temp[1], temp[4]};
+                        rewards = new String[]{temp[2]};
+                    } else {
+                        possibleAnswers = new String[]{temp[1]};
+                        rewards = new String[]{temp[2]};
+                    }
+
+                    questions.add(new Questions(temp[0], possibleAnswers, rewards, temp[3]));
                 }
-
-                questions.add(new Questions(temp[0], possibleAnswers, rewards, temp[3]));
+                // question;answer1;reward1;penalty;answer2;answer3;answer4;reward2;reward3;reward4
+            } catch (IOException e) {
+                throw new RuntimeException();
             }
-            // question;answer1;reward1;penalty;answer2;answer3;answer4;reward2;reward3;reward4
-        } catch (IOException e) {
-            throw new RuntimeException();
+        }else if(MainActivity.language.equals("de")){
+            questions.clear();
+            try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("fragen.txt")))) {
+                for (int i = 0; i < 47; i++) {
+                    String[] temp = br.readLine().split(";"), possibleAnswers, rewards;
+                    // read file into arraylist Questions
+                    if (!temp[6].equals("")) {
+                        possibleAnswers = new String[]{temp[1], temp[4], temp[5], temp[6]};
+                        rewards = new String[]{temp[2], temp[7], temp[8], temp[9]};
+                    } else if (!temp[4].equals("")) {
+                        possibleAnswers = new String[]{temp[1], temp[4]};
+                        rewards = new String[]{temp[2]};
+                    } else {
+                        possibleAnswers = new String[]{temp[1]};
+                        rewards = new String[]{temp[2]};
+                    }
+
+                    questions.add(new Questions(temp[0], possibleAnswers, rewards, temp[3]));
+                }
+                // question;answer1;reward1;penalty;answer2;answer3;answer4;reward2;reward3;reward4
+            } catch (IOException e) {
+                throw new RuntimeException();
+            }
         }
 
         Collections.shuffle(questions);

@@ -8,6 +8,7 @@ public class Questions {
     String penalty;
     public static int currentCard = 0;
     public static boolean hasReadFile = false;
+    public static String language = "de";
 
     // question;answer1;reward1;penalty1;answer2;answer3;answer4;reward2;reward3;reward4
 

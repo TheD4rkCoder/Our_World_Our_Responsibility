@@ -10,6 +10,7 @@ public class Job {
     public static boolean hasReadFile = false;
     public static int currentCard = 0;
     public static int currentCardUni = 0;
+    public static String language = "de";
 
     public Job(boolean needsUniversity, String name, String location, int money, int salary, int ecoScore) {
         this.needsUniversity = needsUniversity;

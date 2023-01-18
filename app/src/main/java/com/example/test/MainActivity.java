@@ -20,6 +20,7 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
     static ArrayList<Job> jobs = new ArrayList<>();
     static ArrayList<Job> educatedJobs = new ArrayList<>();
+    static String language = "de";
     /*
         if (Job.currentCard >= jobs.size()) {
             Collections.shuffle(jobs);
@@ -41,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
             newConfig.locale = locale;
             Locale.setDefault(locale);
             getBaseContext().getResources().updateConfiguration(newConfig, getBaseContext().getResources().getDisplayMetrics());
+        }
+        if(!Job.language.equals(language)){
+            readJobFile();
         }
     }
 
@@ -85,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
                         config.locale = locale;
                         getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
 
+                        language = lang;
                         Intent j = new Intent(getApplicationContext(), MainActivity.class);
                         startActivity(j);
                     }else if(lang.equals("it")){
@@ -93,9 +98,11 @@ public class MainActivity extends AppCompatActivity {
                         config.locale = locale;
                         getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
 
+                        language = lang;
                         Intent j = new Intent(getApplicationContext(), MainActivity.class);
                         startActivity(j);
                     }
+                    readJobFile();
                 }
             }
 
@@ -124,18 +131,37 @@ public class MainActivity extends AppCompatActivity {
     protected void readJobFile() {
 
         Job.hasReadFile = true;
+        Job.language = language;
 
-        try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("berufe.txt")))) {
-            for (int i = 0; i < 29; i++) {
-                String[] temp = br.readLine().split(";");
-                if (temp[2].equals("T")) {
-                    educatedJobs.add(new Job(true, temp[0], temp[1], Integer.parseInt(temp[3]), Integer.parseInt(temp[4]), Integer.parseInt(temp[5])));
-                } else {
-                    jobs.add(new Job(false, temp[0], temp[1], Integer.parseInt(temp[3]), Integer.parseInt(temp[4]), Integer.parseInt(temp[5])));
+        if(language.equals("it")) {
+            jobs.clear();
+            try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("berufe.txt")))) {
+                for (int i = 0; i < 29; i++) {
+                    String[] temp = br.readLine().split(";");
+                    if (temp[2].equals("T")) {
+                        educatedJobs.add(new Job(true, temp[0], temp[1], Integer.parseInt(temp[3]), Integer.parseInt(temp[4]), Integer.parseInt(temp[5])));
+                    } else {
+                        jobs.add(new Job(false, temp[0], temp[1], Integer.parseInt(temp[3]), Integer.parseInt(temp[4]), Integer.parseInt(temp[5])));
+                    }
                 }
+            } catch (IOException e) {
+                throw new RuntimeException();
             }
-        } catch (IOException e) {
-            throw new RuntimeException();
+        }else if(language.equals("de")){
+
+            jobs.clear();
+            try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("berufe.txt")))) {
+                for (int i = 0; i < 29; i++) {
+                    String[] temp = br.readLine().split(";");
+                    if (temp[2].equals("T")) {
+                        educatedJobs.add(new Job(true, temp[0], temp[1], Integer.parseInt(temp[3]), Integer.parseInt(temp[4]), Integer.parseInt(temp[5])));
+                    } else {
+                        jobs.add(new Job(false, temp[0], temp[1], Integer.parseInt(temp[3]), Integer.parseInt(temp[4]), Integer.parseInt(temp[5])));
+                    }
+                }
+            } catch (IOException e) {
+                throw new RuntimeException();
+            }
         }
 
         Collections.shuffle(jobs);
