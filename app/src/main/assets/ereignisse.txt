@@ -6,6 +6,7 @@ Die Steuern sind fällig!;Zahle ein Zehntel deines Geldes ein.
 Die Steuern sind fällig!;Zahle ein Zehntel deines Geldes ein.
 Vroom Vrooooom!;Du hast ein neues Auto gekauft. Zahle 4000€. Du kannst jetzt jeden Zug 1 Feld weiter gehen für den Preis von 1 EcoScore.
 Sehr hilfsbereit;Du hilfst bei einer wohltätigen Organisation, die sich für die Säuberung der Straßen einsetzt. Dein EcoScore wird um 5 verringert.
+Sehr hilfsbereit;Du hilfst bei einer wohltätigen Organisation, die sich für die Säuberung der Straßen einsetzt. Dein Ecocore wird um 5 verringert.
 Sehr hilfsbereit;Du hilfst bei einer wohltätigen Organisation, die sich für die Säuberung der Straßen einsetzt. Dein EcoScore wird um 5 verringert.
 Geburtstag;Es ist dein Geburtstag. Du erhältst 1000€.
 Geburtstag;Es ist dein Geburtstag. Du erhältst 1000€.
@@ -20,7 +21,7 @@ Autoliebhaber;Du bist mit dem Auto zur Arbeit gefahren. Dein EcoScore wird um 2 
 Autoliebhaber;Du bist mit dem Auto zur Arbeit gefahren. Dein EcoScore wird um 2 erhöht.
 Autoliebhaber;Du bist mit dem Auto zur Arbeit gefahren. Dein EcoScore wird um 2 erhöht.
 Autoliebhaber;Du bist mit dem Auto zur Arbeit gefahren. Dein EcoScore wird um 2 erhöht.
-Haus zu verkaufen;Du hast ein Haus gekauft mit dem Klimahaus Zertifikat A+. Zahle 10.000€ und dein EcoScore wird um 5 verringert oder du kaufst ein Haus mit dem Klimahaus Zertifikat G. Zahle 2.000€ und dein EcoScore steigt um 2.
+Hauskauf;Du kaufst ein Haus. Wähle: Klimahaus Zertifikat A+. Zahle 10.000€ und dein EcoScore wird um 5 verringert oder Klimahaus Zertifikat G. Zahle 2.000€ und dein EcoScore steigt um 2.
 Haus bricht zusammen!;Dein Haus muss nach einem Dachschaden renoviert werden. Zahle 1.000€
 Tornado;Deine Umgebung wird von einem Tornado verwüstet. Alle Spieler im aktuellen Gebiet zahlen 600€ Schadensbehebung.
 Geistesblitz;Rücke zum Feld Universität vor!
