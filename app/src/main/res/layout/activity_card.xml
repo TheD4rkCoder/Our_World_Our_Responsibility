@@ -47,7 +47,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ereignisskarte" />
+        app:srcCompat="@drawable/ereignisskarte__1_" />
 
     <TextView
         android:id="@+id/textView2"
