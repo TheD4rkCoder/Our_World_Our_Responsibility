@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -134,8 +135,10 @@ public class MainActivity extends AppCompatActivity {
         Job.language = language;
 
         if(language.equals("it")) {
+            Toast.makeText(getApplicationContext(), getText(R.string.fill_correctly_toast), Toast.LENGTH_LONG).show();
             jobs.clear();
-            try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("berufe.txt")))) {
+            educatedJobs.clear();
+            try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("professioni.txt")))) {
                 for (int i = 0; i < 29; i++) {
                     String[] temp = br.readLine().split(";");
                     if (temp[2].equals("T")) {
@@ -150,6 +153,7 @@ public class MainActivity extends AppCompatActivity {
         }else if(language.equals("de")){
 
             jobs.clear();
+            educatedJobs.clear();
             try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("berufe.txt")))) {
                 for (int i = 0; i < 29; i++) {
                     String[] temp = br.readLine().split(";");

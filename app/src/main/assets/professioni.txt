@@ -27,5 +27,3 @@ lavoratore del piantagione;foresta vergine;F;2500;400;29
 ambientalista;foresta vergine;F;25000;200;15
 taglialegna;foresta vergine;F;6000;1700;30
 minatore;foresta vergine;F;2400;2000;40
-<![CDATA[Falls man einen Beruf erhalten möchte, der ein Studium benötigt, (Switch "Universität"), erhält man für 4 Runden kein Gehalt, da man die Universität besucht]]>
-<![CDATA[Se si vuole ottenere una professione, ala quale serve uno studio, (Switch "Università"), non si ottiene stipendio per 4 turni.]]>
