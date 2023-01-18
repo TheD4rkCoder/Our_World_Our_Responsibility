@@ -13,7 +13,7 @@ Finde gemeinsam mit einem Mitspieler deiner Wahl 5 Dinge, die du in deinem Allta
 Welche Länder sind am stärksten von der globalen Erwärmung bedroht?;Länder am Meer und Länder am Äquator;Noch einmal würfeln. (Eine der 2 Antworten reicht aus);;;;;;;;END
 Welche Energiequelle könnte in Zukunft zusätzlich zu fossilen Brennstoffen und Elektrizität als Mittel für die Betreibung von Fahrzeugen dienen?;Wasserstoff;-5 EcoScore;+5 EcoScore;;;;;;;END
 Was ist zwischen Elektromotoren und herkömmlichen Verbrennern nach deinem Wissensstand und deiner Meinung für die Umwelt besser? (offene Frage);;-(1 - 5) EcoScore;;;;;;;;END
-Ist Inflation für den normalen Bürger etwas Positives?;Nein;Nochmal würfeln;Dein Einkommen wird für 4 Runden halbiert;;;;;;;END
+Überlege dir positive oder negative Aspekte der Inflation auf einfache Bürger. Maximal 5. (offene Frage);;+ 500 Euro pro Argument;;;;;;;;END
 Weshalb wirkt sich die Massenproduktion von z.B. Obst und Gemüse auf das Klima aus?;Für Plantagen benötigt es viel Platz, welcher häufig durch das Roden von Urwäldern generiert wird. Dadurch wird die Natur enorm beschädigt und viele Emissionen freigegeben.;5000 Euro;;;;;;;;END
 Wie wird die Protestaktion genannt, die vor allem von Schülern teilweise wöchentlich veranstaltet wird?;Fridays for Future;-2 EcoScore;-2000 Euro;;;;;;;END
 Wer war maßgebend für wöchentliche Protestaktionen, bei denen auch viele Schüler Südtirols teilnehmen?;Greta Thunberg;-1 EcoScore + 5000 Euro;-1000 Euro;;;;;;;END

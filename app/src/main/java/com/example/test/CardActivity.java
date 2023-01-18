@@ -127,7 +127,7 @@ public class CardActivity extends AppCompatActivity {
             Event.currentCard = 0;
         }
 
-        continueButton.setText("Weiter".toCharArray(), 0, 6);
+        continueButton.setText(getString(R.string.continuecardbutton).toCharArray(), 0, getString(R.string.continuecardbutton).length());
         cardTitle.setText(events.get(Event.currentCard).title.toCharArray(), 0, events.get(Event.currentCard).title.length());
         cardTitle.setTextSize(20);
         cardText.setText(events.get(Event.currentCard).text.toCharArray(), 0, events.get(Event.currentCard).text.length());
@@ -176,17 +176,17 @@ public class CardActivity extends AppCompatActivity {
                     }
                 } else if (questions.get(Questions.currentCard).answer.length == 2) {
                     cardText.setText((getString(R.string.possible_answers) + "\n1. " + questions.get(Questions.currentCard).answer[0] +
-                            "\n2. " + questions.get(Questions.currentCard).answer[1]).toCharArray(), 0, 26 + questions.get(Questions.currentCard).answer[0].length() + questions.get(Questions.currentCard).answer[1].length());
-                    questionAnswers.setText((getString(R.string.reward) + " \n" + questions.get(Questions.currentCard).reward[0]).toCharArray(), 0, 12 + questions.get(Questions.currentCard).reward[0].length());
+                            "\n2. " + questions.get(Questions.currentCard).answer[1]).toCharArray(), 0, getString(R.string.possible_answers).length() + 3 + questions.get(Questions.currentCard).answer[0].length() + questions.get(Questions.currentCard).answer[1].length());
+                    questionAnswers.setText((getString(R.string.reward) + " \n" + questions.get(Questions.currentCard).reward[0]).toCharArray(), 0, getString(R.string.reward).length()  + 2 + questions.get(Questions.currentCard).reward[0].length());
 
                 } else {
                     if (!questions.get(Questions.currentCard).answer[0].equals("")) {
-                        cardText.setText((getString(R.string.reward) + " \n" + questions.get(Questions.currentCard).answer[0]).toCharArray(), 0, 10 + questions.get(Questions.currentCard).answer[0].length());
+                        cardText.setText((getString(R.string.answer) + " \n" + questions.get(Questions.currentCard).answer[0]).toCharArray(), 0, getString(R.string.answer).length() + 2 + questions.get(Questions.currentCard).answer[0].length());
                     }
                     if (questions.get(Questions.currentCard).penalty.equals("")) {
-                        questionAnswers.setText((getString(R.string.reward) + questions.get(Questions.currentCard).reward[0]).toCharArray(), 0, 12 + questions.get(Questions.currentCard).reward[0].length());
+                        questionAnswers.setText((getString(R.string.reward) + questions.get(Questions.currentCard).reward[0]).toCharArray(), 0, getString(R.string.reward).length() + 2 + questions.get(Questions.currentCard).reward[0].length());
                     } else {
-                        questionAnswers.setText((getString(R.string.reward) + " \n" + questions.get(Questions.currentCard).reward[0]).toCharArray(), 0, 12 + questions.get(Questions.currentCard).reward[0].length());
+                        questionAnswers.setText((getString(R.string.reward) + " \n" + questions.get(Questions.currentCard).reward[0]).toCharArray(), 0, getString(R.string.reward).length() + 2 + questions.get(Questions.currentCard).reward[0].length());
                         questionAnswers.append("\n" + getString(R.string.penalty) + "\n" + questions.get(Questions.currentCard).penalty);
                     }
                 }

@@ -22,8 +22,10 @@ guida turistica;costa;F;5600;1400;40
 biologo marino;costa;T;4500;1800;30
 bagnino;costa;F;6200;1300;30
 venditore di noci di cocco;costa;F;3000;600;20
-proprietario del piantagione;foresta pluviale;F;6200;1500;50
-lavoratore del piantagione;foresta pluviale;F;2500;400;29
-ambientalista;foresta pluviale;F;25000;200;15
-taglialegna;foresta pluviale;F;6000;1700;30
-minatore;foresta pluviale;F;2400;2000;40
+proprietario del piantagione;foresta vergine;F;6200;1500;50
+lavoratore del piantagione;foresta vergine;F;2500;400;29
+ambientalista;foresta vergine;F;25000;200;15
+taglialegna;foresta vergine;F;6000;1700;30
+minatore;foresta vergine;F;2400;2000;40
+<![CDATA[Falls man einen Beruf erhalten möchte, der ein Studium benötigt, (Switch "Universität"), erhält man für 4 Runden kein Gehalt, da man die Universität besucht]]>
+<![CDATA[Se si vuole ottenere una professione, ala quale serve uno studio, (Switch "Università"), non si ottiene stipendio per 4 turni.]]>

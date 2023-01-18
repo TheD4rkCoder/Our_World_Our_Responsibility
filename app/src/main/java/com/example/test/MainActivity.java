@@ -3,15 +3,22 @@ package com.example.test;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.res.Configuration;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.Spinner;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
     static ArrayList<Job> jobs = new ArrayList<>();
@@ -24,6 +31,23 @@ public class MainActivity extends AppCompatActivity {
         Job.currentCard++;
         // and the same
      */
+
+
+    private Locale locale = null;
+    private String language = null;
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig)
+    {
+        super.onConfigurationChanged(newConfig);
+        if (locale != null)
+        {
+            newConfig.locale = locale;
+            Locale.setDefault(locale);
+            getBaseContext().getResources().updateConfiguration(newConfig, getBaseContext().getResources().getDisplayMetrics());
+        }
+    }
+
 
 
     @Override
@@ -46,6 +70,61 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Spinner spinner = (Spinner)findViewById(R.id.spinner);
+        // Create an ArrayAdapter using the string array and a default spinner layout
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+                R.array.languages, android.R.layout.simple_spinner_item);
+        // Specify the layout to use when the list of choices appears
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        // Apply the adapter to the spinner
+        spinner.setAdapter(adapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                String lang = (String)adapterView.getItemAtPosition(i);
+                if(!lang.equals("Select a language")){
+                    if(lang.equals("de")){
+                        Configuration config = getBaseContext().getResources().getConfiguration();
+                        locale = new Locale("");
+                        config.locale = locale;
+                        getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+
+                        language = lang;
+                        Intent j = new Intent(getApplicationContext(), MainActivity.class);
+                        startActivity(j);
+                    }else if(lang.equals("it")){
+                        Configuration config = getBaseContext().getResources().getConfiguration();
+                        locale = new Locale("it");
+                        config.locale = locale;
+                        getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+
+                        language = lang;
+                        Intent j = new Intent(getApplicationContext(), MainActivity.class);
+                        startActivity(j);
+                    }
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+        /*
+        SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(this);
+
+        Configuration config = getBaseContext().getResources().getConfiguration();
+
+        locale = new Locale("it");
+        config.locale = locale;
+        getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+
+
+        locale = new Locale("");
+        config.locale = locale;
+        getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+        //*/
     }
 
     protected void readJobFile() {
