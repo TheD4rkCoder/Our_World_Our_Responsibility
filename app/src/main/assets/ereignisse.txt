@@ -31,31 +31,31 @@ Klimakleber;Klimaaktivisten haben sich auf der Straße festgeklebt. Der EcoScore
 Straßenschneider;Du hast dem Spieler auf deiner rechten Seite die Vorfahrt genommen. Du musst dem Spieler auf deiner rechten Seite 200€ zahlen.
 Straßenschneider;Du hast dem Spieler auf deiner rechten Seite die Vorfahrt genommen. Du musst dem Spieler auf deiner rechten Seite 200€ zahlen.
 Straßenschneider;Du hast dem Spieler auf deiner rechten Seite die Vorfahrt genommen. Du musst dem Spieler auf deiner rechten Seite 200€ zahlen.
-Hilfsaktion!;Du triffst auf eine freiwillige Müllsammelaktion und machst mit. Dien EcoScore wird um 5 verringert. Setze einen Zug aus.
-Hilfsaktion!;Du triffst auf eine freiwillige Müllsammelaktion und machst mit. Dien EcoScore wird um 5 verringert. Setze einen Zug aus.
+Hilfsaktion!;Du triffst auf eine freiwillige Müllsammelaktion und machst mit. Dein EcoScore wird um 5 verringert. Setze einen Zug aus.
+Hilfsaktion!;Du triffst auf eine freiwillige Müllsammelaktion und machst mit. Dein EcoScore wird um 5 verringert. Setze einen Zug aus.
 Klimakrise;Einer Ölfabrik ist eine Pipeline gebrochen. Der EcoScore aller Spieler wird um 5 erhöht.
 Fair gehandelt;Du hast deinen wöchentlichen Einkauf in einem Fairtrade-Laden gemacht. Zahle 200€ und dein EcoScore wird um 2 verringert.
-Gute Investition;Du investierst in Erneuerbare Energie. Zahle 2000€. In der nächsten Runde bekommst du 10% mehr Gehalt und dein EcoScore wird um 2 verringert. 
-Gute Investition;Du investierst in Erneuerbare Energie. Zahle 2000€. In der nächsten Runde bekommst du 10% mehr Gehalt und dein EcoScore wird um 2 verringert. 
+Gute Investition;Du investierst in erneuerbare Energie. Zahle 2000€. In der nächsten Runde bekommst du 10% mehr Gehalt und dein EcoScore wird um 2 verringert.
+Gute Investition;Du investierst in erneuerbare Energie. Zahle 2000€. In der nächsten Runde bekommst du 10% mehr Gehalt und dein EcoScore wird um 2 verringert.
 Schuldeneintreiber;Jeder Mitspieler zahlt dir 200€.
 Schuldeneintreiber;Jeder Mitspieler zahlt dir 200€.
 Schuldeneintreiber;Jeder Mitspieler zahlt dir 200€.
 Pfandsammler;Du hast 100 Pfandflaschen zurückgegeben. Du erhältst 500€ und dein EcoScore wird um 2 verringert.
 Pfandsammler;Du hast 100 Pfandflaschen zurückgegeben. Du erhältst 500€ und dein EcoScore wird um 2 verringert.
 Pfandsammler;Du hast 100 Pfandflaschen zurückgegeben. Du erhältst 500€ und dein EcoScore wird um 2 verringert.
-Wissensquiz!;Alle Spieler werden zu einem Wissensquiz eingeladen. Jeder Spieler zieht eine Wissenskarte.
-Wissensquiz!;Alle Spieler werden zu einem Wissensquiz eingeladen. Jeder Spieler zieht eine Wissenskarte.
-Wissensquiz!;Alle Spieler werden zu einem Wissensquiz eingeladen. Jeder Spieler zieht eine Wissenskarte.
+Wissensquiz!;Alle Spieler werden zu einem Wissensquiz eingeladen. Jeder Spieler zieht eine Fragenkartekarte.
+Wissensquiz!;Alle Spieler werden zu einem Wissensquiz eingeladen. Jeder Spieler zieht eine Fragenkarte.
+Wissensquiz!;Alle Spieler werden zu einem Wissensquiz eingeladen. Jeder Spieler zieht eine Fragenkarte.
 Gute Laune!;Du bist heute sehr gut gelaunt. Du gibst jedem deiner Mitspieler 100€.
 Radunfall!;Du hattest einen Radunfall. Gehe von deinem aktuellen Standort in unter 3 Zügen zum Feld Polizei. Solltest du es in 3 oder weniger Zügen schaffen, erhältst du 1000€. Solltest du das nicht schaffen, musst du die Verantwortung für den Autounfall übernehmen und 1000€ zahlen.
 Radunfall!;Du hattest einen Radunfall. Gehe von deinem aktuellen Standort in unter 3 Zügen zum Feld Polizei. Solltest du es in 3 oder weniger Zügen schaffen, erhältst du 1000€. Solltest du das nicht schaffen, musst du die Verantwortung für den Autounfall übernehmen und 1000€ zahlen.
 Weiterbildung!;Gehe von deinem aktuellen Standpunkt zum Feld Bildungsgebäude.
 Weiterbildung!;Gehe von deinem aktuellen Standpunkt zum Feld Bildungsgebäude.
-Skifahren!;Du willst für einen Wochenendtrip Ski fahren gehen. Begib dich von deinem aktuellen Standort in unter 4 Zügen zum Gletscherfeld. Solltest du das nicht in 4 oder weniger Zügen schaffen, musst du für 1 Runde aussetzen.
+Skifahren!;Du willst für einen Wochenendtrip Skifahren gehen. Begib dich von deinem aktuellen Standort in unter 4 Zügen zum Gletscherfeld. Solltest du das nicht in 4 oder weniger Zügen schaffen, musst du für 1 Runde aussetzen.
 S1: Schlauer als das Quiz!;Du erhältst bei einer Fragenkarte die Belohnung, ohne die Frage beantworten zu müssen, musst die Entscheidung jedoch treffen, ohne die Karte zuvor zu lesen.
 S2: Fliegen ohne Flieger;Du erhältst ein Flugticket, bei dem dein EcoScore nicht verändert wird. Die Gebühren müssen trotzdem bezahlt werden.
 S3: Risikofrei;Du kannst eine deiner Quizfragen an einen anderen Mitspieler weitergeben.
 S4: Bessere Investition;Zahle jetzt 100€. Für jede 5 Runden, die du die Karte behältst, wird zu deinen 100€ die du gezahlt hast 50€ addiert. Die Karte kannst du zu jedem Zeitpunkt einlösen und das Geld erhalten, solange das Spiel noch läuft.
 S5: Umweltbändiger;Du kannst eine Ereigniskarte ignorieren, musst die Entscheidung jedoch treffen, ohne die Karte zuvor zu lesen.
 S6: Jackpot;Verdopple deine Belohnung bei einer Quizfrage, du musst die Entscheidung jedoch treffen, ohne die Karte zuvor zu lesen.
-Finanzberater;Du lässt dich über Investitionen beraten. Option 1: x Euro in die Fossil-Industrie investieren und nächste Runde 20% mehr zurückgewinnen, dafür verliert man aber x/1000 EcoScore Punkte. Option 2: x Euro in erneuerbare Energien investieren und nächste runde 5% mehr zurückbekommen (x muss ein Vielfaches von 1000 sein)
+Finanzberater;Du lässt dich über Investitionen beraten. Option 1: x Euro in die Fossil-Industrie investieren und nächste Runde 20% mehr zurückgewinnen, dafür werden dir x/1000 EcoScore Punkte abgezogen. Option 2: x Euro in erneuerbare Energien investieren und nächste Runde 5% mehr zurückbekommen (x muss ein Vielfaches von 1000 sein)
