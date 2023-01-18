@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Switch;
+import android.widget.TextView;
 import android.widget.Toast;
 import java.util.Collections;
 
@@ -18,6 +19,18 @@ public class AddPlayerActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_player);
+        TextView helpText = findViewById(R.id.universityHelpText);
+        Button help = findViewById(R.id.universityHelpButton);
+        help.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (helpText.getVisibility() == View.INVISIBLE) {
+                    helpText.setVisibility(View.VISIBLE);
+                } else {
+                    helpText.setVisibility(View.INVISIBLE);
+                }
+            }
+        });
         Button b = findViewById(R.id.createButton);
         Intent i = getIntent();
         p = PlayerMenuActivity.players[i.getIntExtra("PLAYER", 0)];

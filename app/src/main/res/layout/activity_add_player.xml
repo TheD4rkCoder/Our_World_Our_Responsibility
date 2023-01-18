@@ -35,9 +35,33 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Universität"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nameInput" />
+
+    <TextView
+        android:id="@+id/universityHelpText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Falls man einen Beruf erhalten möchte, der ein Studium benötigt, (Switch &quot;Universität&quot;), erhält man für 4 Runden kein gehalt, da man die Universität besucht"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/universitySwitch" />
+
+    <Button
+        android:id="@+id/universityHelpButton"
+        android:layout_width="51dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="-30dp"
+        android:background="#00FFFFFF"
+        app:icon="@drawable/ic_action_name"
+        app:iconTint="#969696"
+        app:layout_constraintBottom_toTopOf="@+id/nameInput"
+        app:layout_constraintEnd_toEndOf="@+id/nameInput" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

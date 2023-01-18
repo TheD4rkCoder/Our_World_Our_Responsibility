@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -16,6 +17,7 @@ import java.util.Collections;
 public class PlayerActivity extends AppCompatActivity {
 
     Player p;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +25,7 @@ public class PlayerActivity extends AppCompatActivity {
         Intent i = getIntent();
         p = PlayerMenuActivity.players[i.getIntExtra("PLAYER", 0)];
         reload();
-        ((Button)findViewById(R.id.confirmChangeMoney)).setOnClickListener(new View.OnClickListener() {
+        ((Button) findViewById(R.id.confirmChangeMoney)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 EditText e = findViewById(R.id.changeMoneyInput);
@@ -33,7 +35,7 @@ public class PlayerActivity extends AppCompatActivity {
                 e.setText("");
             }
         });
-        ((Button)findViewById(R.id.confirmChangeSalary)).setOnClickListener(new View.OnClickListener() {
+        ((Button) findViewById(R.id.confirmChangeSalary)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 EditText e = findViewById(R.id.changeSalaryInput);
@@ -43,24 +45,27 @@ public class PlayerActivity extends AppCompatActivity {
                 e.setText("");
             }
         });
-        ((Button)findViewById(R.id.confirmChangeEcoScore)).setOnClickListener(new View.OnClickListener() {
+        ((Button) findViewById(R.id.confirmChangeEcoScore)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 EditText e = findViewById(R.id.changeEcoScoreInput);
                 int i = (int) new Expression(String.valueOf(p.getEcoScore()) + e.getText().toString()).calculate();
+                if (i < 1) {
+                    i = 1;
+                }
                 p.setEcoScore(i);
                 reload();
                 e.setText("");
             }
         });
-        ((Button)findViewById(R.id.skipRoundButton)).setOnClickListener(new View.OnClickListener() {
+        ((Button) findViewById(R.id.skipRoundButton)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 p.skipRounds++;
                 reload();
             }
         });
-        ((Button)findViewById(R.id.changeJobButton)).setOnClickListener(new View.OnClickListener() {
+        ((Button) findViewById(R.id.changeJobButton)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 p.university = true;
@@ -77,8 +82,16 @@ public class PlayerActivity extends AppCompatActivity {
                 reload();
             }
         });
+
+        ((Button) findViewById(R.id.changeHelpButton)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Alle änderung benötigen +, -, * oder / vor der Zahl", Toast.LENGTH_LONG).show();
+            }
+        });
     }
-    private void reload (){
+
+    private void reload() {
         TextView t = findViewById(R.id.nameView);
         t.setText(p.getName());
         t.setTextSize(40);

@@ -35,7 +35,7 @@ public class PlayerMenuActivity extends AppCompatActivity {
                 playerButtons[i].setVisibility(View.INVISIBLE);
             } else {
                 if (players[i].isCreationCompleted()) {
-                    playerButtons[i].setText(players[i].getName());
+                    playerButtons[i].setText(players[i].getName() + " (" + players[i].getMoney() / players[i].getEcoScore() + ")");
                     playerButtons[i].setVisibility(View.VISIBLE);
                 } else {
                     players[i] = null;

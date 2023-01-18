@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".PlayerActivity">
 
+    <Button
+        android:id="@+id/changeHelpButton"
+        android:layout_width="51dp"
+        android:layout_height="42dp"
+        android:background="#00FFFFFF"
+        app:icon="@drawable/ic_action_name"
+        app:iconTint="#969696"
+        app:layout_constraintBottom_toBottomOf="@+id/nameView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nameView"
+        app:layout_constraintTop_toTopOf="@+id/nameView" />
+
     <TextView
         android:id="@+id/nameView"
         android:layout_width="wrap_content"
