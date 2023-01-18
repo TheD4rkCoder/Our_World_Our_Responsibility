@@ -81,7 +81,11 @@ public class PlayerMenuActivity extends AppCompatActivity {
                 }
 
                 TextView t = findViewById(R.id.currentPlayerText);
-                t.setText(getString(R.string.currentTurn) + " " + players[currentPlayer].getName());
+                if(players[currentPlayer] != null){
+                    t.setText(getString(R.string.currentTurn) + " " + players[currentPlayer].getName());
+                }else{
+                    t.setText(getString(R.string.currentTurn));
+                }
 
                 if (players[currentPlayer].skipRounds > 0) {
                     players[currentPlayer].skipRounds--;
