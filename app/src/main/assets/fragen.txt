@@ -10,9 +10,9 @@ Wie viele Mitgliedsländer hat die EU?;27;-5 EcoScore;;30;15;22;;+5 EcoScore;;EN
 Wie viel würde das Beenden des Welthungers bis 2030 nach verschiedenen Studien zusätzlich jährlich kosten? Derzeit gibt die internationale Gesellschaft jährlich 12 Milliarden Dollar aus. (Antwort in Milliarden Dollar);14 (Spielraum von +-5);-5 EcoScore;;;;;;;;END
 Wie viel Fläche an Solarplatten wäre nötig, um die Produktion eines durchschnittlichen Atomkraftwerks zu ersetzen?;66 Quadratkilometer;Gehe 7 Felder weiter;;6 Quadratkilometer;200000 Quadratmeter;2000 Quadratkilometer;;;Setze für eine Runde aus;END
 Finde gemeinsam mit einem Mitspieler deiner Wahl 5 Dinge, die du in deinem Alltag ändern könntest, um nachhaltiger zu leben. Dein Mitspieler erhält 50% der Belohnung. (offene Frage);;-2 EcoScore pro Änderung;;;;;;;;END
-Welche Länder sind am stärkstenvon der Globalen Erwärmung bedroht?;Länder am Meer und Länder am Äquator;Noch einmal würfeln. (Eine der 2 Antworten reicht aus);;;;;;;;END
+Welche Länder sind am stärksten von der globalen Erwärmung bedroht?;Länder am Meer und Länder am Äquator;Noch einmal würfeln. (Eine der 2 Antworten reicht aus);;;;;;;;END
 Welche Energiequelle könnte in Zukunft zusätzlich zu fossilen Brennstoffen und Elektrizität als Mittel für die Betreibung von Fahrzeugen dienen?;Wasserstoff;-5 EcoScore;+5 EcoScore;;;;;;;END
-Was ist zwischen Elektromotoren und herkömmlichen Verbrennern, laut deinem Wissensstand und deiner Meinung, für die Umwelt besser? (offene Frage);;-(1 - 5) EcoScore;;;;;;;;END
+Was ist zwischen Elektromotoren und herkömmlichen Verbrennern nach deinem Wissensstand und deiner Meinung für die Umwelt besser? (offene Frage);;-(1 - 5) EcoScore;;;;;;;;END
 Ist Inflation für den normalen Bürger etwas Positives?;Nein;Nochmal würfeln;Dein Einkommen wird für 4 Runden halbiert;;;;;;;END
 Weshalb wirkt sich die Massenproduktion von z.B. Obst und Gemüse auf das Klima aus?;Für Plantagen benötigt es viel Platz, welcher häufig durch das Roden von Urwäldern generiert wird. Dadurch wird die Natur enorm beschädigt und viele Emissionen freigegeben.;5000 Euro;;;;;;;;END
 Wie wird die Protestaktion genannt, die vor allem von Schülern teilweise wöchentlich veranstaltet wird?;Fridays for Future;-2 EcoScore;-2000 Euro;;;;;;;END
@@ -29,7 +29,7 @@ Die ärmsten 53 Prozent der Weltbevölkerung besaßen 2020 welchen Anteil des we
 Wahr oder falsch: Umweltkatastrophen wie starker Regen oder Hurricanes haben keine Verbindung zum Klimawandel.;Falsch;Nochmal würfeln;+10 EcoScore;;;;;;;END
 Wahr oder falsch: Die Agenda 2030 ist eine Anleitung für eine Nachhaltige Zukunft.;Falsch;-3 EcoScore;+5 EcoScore;;;;;;;END
 Von wem gehen die Global Goals aus?;United Nations;Nochmal würfeln;+5 EcoScore;;;;;;;END
-Wie lange kann Kohlendioxid in der Atmosphäre verbleiben?;Bis zu einem Jahr;;-1000 Euro;bis zu 10 Jahre;bis zu 100 Jahre;bis zu 1000 Jahre;;2000 Euro;;END
+Wie lange kann Kohlendioxid in der Atmosphäre verbleiben?;Bis zu einem Jahr;;-1000 Euro;Bis zu 10 Jahren;Bis zu 100 Jahren;Bis zu 1000 Jahren;;2000 Euro;;END
 Wo wird am meisten Lithium abgebaut?;Australien;1000 Euro;;Chile;China;Italien;;;;END
 Welche Umweltorganisationen gibt es nicht?;Greenpeace;;+10 EcoScore;Robin Ocean;Earth First;NABU;-3 EcoScore;+10 EcoScore;+10 EcoScore;END
 Warum wird Starkregen immer heftiger?;Das liegt daran, dass durch den Klimawandel die Lufttemperatur steigt. Dadurch entsteht mehr Wasserdampf. Warme Luft kann mehr Feuchtigkeit aufnehmen. Je höher der Wasserdampfgehalt ist, desto mehr Wasser können die Wolken aufnehmen und umso stärker sind die Niederschläge am Boden.;5000 Euro;;;;;;;;END
@@ -43,5 +43,5 @@ Wieso ist es schlecht für das Klima, wenn Permafrostböden auftauen?;Durch das 
 Welches Treibhausgas trägt am stärksten zum Klimawandel bei?;Lachgas;;+5 EcoScore;Methangas;Kohlendioxid;Stickstoff;+5 EcoScore;-5 EcoScore;+5 EcoScore;END
 Was haben Sie von dem Klimaaktivismus in letzter Zeit mitbekommen? (Offene Frage);;Pro Ereignis +500 Euro (Maximal 5);;;;;;;;END
 War das Klima in der Geschichte immer konstant, bevor die Menschen Treibhausgase erzeugten?;Nein;;+10 EcoScore;;;;;;;END
-Welche Art von Zielen umfasst die Global Goals?;Wirtschaftliche Ziele;;;Umweltziele;Soziale, wirtschaftliche und Umweltziele;Militärstrategische Ziele;;5000 Euro;+40 EcoScore;END
+Welche Art von Zielen umfassen die Global Goals?;Wirtschaftliche Ziele;;;Umweltziele;Soziale, wirtschaftliche und Umweltziele;Militärstrategische Ziele;;5000 Euro;+40 EcoScore;END
 Bis zu welchem Jahr haben die Vereinten Nationen sich zum Erreichen der Global Goals verpflichtet?;2050;;;2040;2030;2033;;2000 Euro;;END
