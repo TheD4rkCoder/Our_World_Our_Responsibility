@@ -56,7 +56,7 @@ public class PlayerActivity extends AppCompatActivity {
         ((Button)findViewById(R.id.skipRoundButton)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                p.skipRounds = 4;
+                p.skipRounds++;
                 reload();
             }
         });
@@ -64,11 +64,12 @@ public class PlayerActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 p.university = true;
-                Job j = MainActivity.educatedJobs.get(Job.currentCardUni);
                 if (Job.currentCardUni >= MainActivity.educatedJobs.size()) {
                     Collections.shuffle(MainActivity.educatedJobs);
                     Job.currentCardUni = 0;
                 }
+                Job j = MainActivity.educatedJobs.get(Job.currentCardUni);
+                p.skipRounds += 4;
                 Job.currentCardUni++;
                 p.setSalary(j.salary);
                 p.setLocation(j.location);
@@ -97,6 +98,7 @@ public class PlayerActivity extends AppCompatActivity {
         t = findViewById(R.id.skipRoundCounterText);
         if (p.skipRounds > 0) {
             t.setText("Du erhälst in den nächsten " + p.skipRounds + " Runden kein Gehalt");
+            t.setVisibility(View.VISIBLE);
         } else {
             t.setVisibility(View.INVISIBLE);
         }

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.google.android.material.chip.Chip;
 
@@ -74,6 +75,15 @@ public class PlayerMenuActivity extends AppCompatActivity {
                 }
             }
         });
+        int ecoScoreTogether = 0, numberOfPlayers = 0;
+        for (int i = 0; i < 10; i++) {
+            if (players[i] != null) {
+                numberOfPlayers++;
+                ecoScoreTogether += players[i].getEcoScore();
+            }
+        }
+        TextView t = findViewById(R.id.ecoScoreTogetherText);
+        t.append(String.valueOf(ecoScoreTogether) + "/" + String.valueOf(numberOfPlayers * 100));
     }
 
     private void onButtonClick(View v) {
