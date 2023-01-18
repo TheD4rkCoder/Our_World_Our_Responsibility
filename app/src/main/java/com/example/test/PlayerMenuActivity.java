@@ -14,6 +14,7 @@ public class PlayerMenuActivity extends AppCompatActivity {
 
     protected Chip[] playerButtons = new Chip[10];
     protected static Player[] players = new Player[10];
+    private static int currentRound = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,14 +65,20 @@ public class PlayerMenuActivity extends AppCompatActivity {
         ((Button) findViewById(R.id.addRound)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                currentRound++;
+                TextView t = findViewById(R.id.currentRoundText);
+                t.setText("Aktelle Runde: " + String.valueOf(currentRound));
+                int j = 0;
                 for (Player i : players) {
                     if (i != null) {
                         if (i.skipRounds > 0) {
                             i.skipRounds--;
                         } else {
                             i.setMoney(i.getMoney() + i.getSalary());
+                            playerButtons[j].setText(i.getName() + " (" + i.getMoney() / i.getEcoScore() + ")");
                         }
                     }
+                    j++;
                 }
             }
         });
@@ -84,6 +91,8 @@ public class PlayerMenuActivity extends AppCompatActivity {
         }
         TextView t = findViewById(R.id.ecoScoreTogetherText);
         t.append(String.valueOf(ecoScoreTogether) + "/" + String.valueOf(numberOfPlayers * 100));
+        t = findViewById(R.id.currentRoundText);
+        t.setText("Aktelle Runde: " + String.valueOf(currentRound));
     }
 
     private void onButtonClick(View v) {
