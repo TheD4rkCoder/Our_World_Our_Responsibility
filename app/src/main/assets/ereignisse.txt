@@ -1,5 +1,5 @@
-Autounfall!;Du wurdest in einen Autounfall verwickelt und hast dir ein Bein gebrochen. Gehe sofort ins Krankenhaus. Zusätzlich werden deine nächsten zwei Würfelzüge halbiert.(Ungerade werden abgerudet.)
-Autounfall!;Du wurdest in einen Autounfall verwickelt und hast dir ein Bein gebrochen. Gehe sofort ins Krankenhaus. Zusätzlich werden deine nächsten zwei Würfelzüge halbiert. (Ungerade werden abgerundet.)
+Autounfall!;Du wurdest in einen Autounfall verwickelt und hast dir ein Bein gebrochen. Gehe sofort ins Krankenhaus. Zusätzlich werden deine nächsten zwei Würfe halbiert.(Ungerade werden abgerudet.)
+Autounfall!;Du wurdest in einen Autounfall verwickelt und hast dir ein Bein gebrochen. Gehe sofort ins Krankenhaus. Zusätzlich werden deine nächsten zwei Würfe halbiert. (Ungerade werden abgerundet.)
 Glücklicher Boss;Du bekommst das doppelte Gehalt für eine Runde.
 Die Steuern sind fällig!;Zahle ein Zehntel deines Geldes ein.
 Die Steuern sind fällig!;Zahle ein Zehntel deines Geldes ein.
