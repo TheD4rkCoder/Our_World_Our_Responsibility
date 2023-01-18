@@ -81,7 +81,7 @@ public class CardActivity extends AppCompatActivity {
 
         Questions.hasReadFile = true;
 
-        try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("fragen.txt")))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("domande.txt")))) {
             for (int i = 0; i < 47; i++) {
                 String[] temp = br.readLine().split(";"), possibleAnswers, rewards;
                 // read file into arraylist Questions
@@ -158,7 +158,7 @@ public class CardActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (questions.get(Questions.currentCard).answer.length > 2) {
-                    questionAnswers.append("Belohnungen oder Strafen:\n");
+                    questionAnswers.append(getString(R.string.reward_or_penalty) + "\n");
                     if (!questions.get(Questions.currentCard).penalty.equals("")) {
                         questionAnswers.append("A: " + questions.get(Questions.currentCard).penalty + "\n");
                     }
@@ -175,22 +175,23 @@ public class CardActivity extends AppCompatActivity {
                         questionAnswers.append("D: " + questions.get(Questions.currentCard).reward[3]);
                     }
                 } else if (questions.get(Questions.currentCard).answer.length == 2) {
-                    cardText.setText(("Mögliche Antworten: \n1. " + questions.get(Questions.currentCard).answer[0] +
+                    cardText.setText((getString(R.string.possible_answers) + "\n1. " + questions.get(Questions.currentCard).answer[0] +
                             "\n2. " + questions.get(Questions.currentCard).answer[1]).toCharArray(), 0, 26 + questions.get(Questions.currentCard).answer[0].length() + questions.get(Questions.currentCard).answer[1].length());
-                    questionAnswers.setText(("Belohnung: \n" + questions.get(Questions.currentCard).reward[0]).toCharArray(), 0, 12 + questions.get(Questions.currentCard).reward[0].length());
+                    questionAnswers.setText((getString(R.string.reward) + " \n" + questions.get(Questions.currentCard).reward[0]).toCharArray(), 0, 12 + questions.get(Questions.currentCard).reward[0].length());
 
                 } else {
                     if (!questions.get(Questions.currentCard).answer[0].equals("")) {
-                        cardText.setText(("Antwort: \n" + questions.get(Questions.currentCard).answer[0]).toCharArray(), 0, 10 + questions.get(Questions.currentCard).answer[0].length());
+                        cardText.setText((getString(R.string.reward) + " \n" + questions.get(Questions.currentCard).answer[0]).toCharArray(), 0, 10 + questions.get(Questions.currentCard).answer[0].length());
                     }
                     if (questions.get(Questions.currentCard).penalty.equals("")) {
-                        questionAnswers.setText(("Belohnung: \n" + questions.get(Questions.currentCard).reward[0]).toCharArray(), 0, 12 + questions.get(Questions.currentCard).reward[0].length());
+                        questionAnswers.setText((getString(R.string.reward) + questions.get(Questions.currentCard).reward[0]).toCharArray(), 0, 12 + questions.get(Questions.currentCard).reward[0].length());
                     } else {
-                        questionAnswers.setText(("Belohnung: \n" + questions.get(Questions.currentCard).reward[0]).toCharArray(), 0, 12 + questions.get(Questions.currentCard).reward[0].length());
-                        questionAnswers.append("\nBestrafung: \n" + questions.get(Questions.currentCard).penalty);
+                        questionAnswers.setText((getString(R.string.reward) + " \n" + questions.get(Questions.currentCard).reward[0]).toCharArray(), 0, 12 + questions.get(Questions.currentCard).reward[0].length());
+                        questionAnswers.append("\n" + getString(R.string.penalty) + "\n" + questions.get(Questions.currentCard).penalty);
                     }
                 }
-                continueButton.setText("weiter".toCharArray(), 0, 6);
+
+                continueButton.setText(getString(R.string.continuecardbutton));
                 Questions.currentCard++;
                 continueButton.setOnClickListener(continueClick);
             }
@@ -201,7 +202,7 @@ public class CardActivity extends AppCompatActivity {
             Questions.currentCard = 0;
         }
         continueButton.setOnClickListener(showResultClick);
-        continueButton.setText("Lösung zeigen".toCharArray(), 0, 13);
+        continueButton.setText(getString(R.string.show_solution));
         cardTitle.setText(questions.get(Questions.currentCard).question.toCharArray(), 0, questions.get(Questions.currentCard).question.length());
         cardTitle.setTextSize(20);
         questionAnswers.setTextSize(15);

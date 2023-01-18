@@ -86,7 +86,7 @@ public class PlayerActivity extends AppCompatActivity {
         ((Button) findViewById(R.id.changeHelpButton)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Alle änderung benötigen +, -, * oder / vor der Zahl", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), getText(R.string.change_help_toast), Toast.LENGTH_LONG).show();
             }
         });
     }
@@ -98,19 +98,21 @@ public class PlayerActivity extends AppCompatActivity {
         t = findViewById(R.id.jobView);
         t.setText(p.getJob());
         t = findViewById(R.id.jobLocationText);
-        t.setText("Ort des Berufes: " + p.getLocation());
+        t.setText(getString(R.string.locationOfJob) +" " + p.getLocation());
         t = findViewById(R.id.moneyView);
         String s = p.getMoney() + "€";
         t.setText(s);
         t = findViewById(R.id.salaryView);
-        s = p.getSalary() + "€/Monat";
+        s = p.getSalary() + "€/"+ getString(R.string.month);
         t.setText(s);
         t = findViewById(R.id.ecoScoreView);
         s = String.valueOf(p.getEcoScore());
         t.setText(s);
         t = findViewById(R.id.skipRoundCounterText);
         if (p.skipRounds > 0) {
-            t.setText("Du erhälst in den nächsten " + p.skipRounds + " Runden kein Gehalt");
+            t.setText(getString(R.string.you_get_in_the_next) + p.skipRounds + getString(R.string.rounds_no_salary));
+            // you_get_in_the_next
+            // rounds_no_salary
             t.setVisibility(View.VISIBLE);
         } else {
             t.setVisibility(View.INVISIBLE);

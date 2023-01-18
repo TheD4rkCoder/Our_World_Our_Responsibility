@@ -40,17 +40,17 @@ public class AddPlayerActivity extends AppCompatActivity {
                 EditText name = findViewById(R.id.nameInput);
                 Switch s = findViewById(R.id.universitySwitch);
                 if(name.getText().toString().equals("Name")){
-                    Toast.makeText(getApplicationContext(), "Bitte füllen sie alle Felder korrekt aus!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), getText(R.string.fill_correctly_toast), Toast.LENGTH_LONG).show();
                     return;
                 }
                 Job j;
                 if(s.isChecked()){
                     p.university = true;
-                    j = MainActivity.educatedJobs.get(Job.currentCardUni);
                     if (Job.currentCardUni >= MainActivity.educatedJobs.size()) {
                         Collections.shuffle(MainActivity.educatedJobs);
                         Job.currentCardUni = 0;
                     }
+                    j = MainActivity.educatedJobs.get(Job.currentCardUni);
                     Job.currentCardUni++;
                     p.skipRounds = 4;
                 }else{

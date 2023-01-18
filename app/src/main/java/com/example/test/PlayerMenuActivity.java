@@ -23,7 +23,7 @@ public class PlayerMenuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_player_menu);
         if (players[currentPlayer] != null) {
-            ((TextView) findViewById(R.id.currentPlayerText)).setText("Am Zug: " + players[currentPlayer].getName());
+            ((TextView) findViewById(R.id.currentPlayerText)).append(" " + players[currentPlayer].getName());
         }
         playerButtons[0] = findViewById(R.id.chipPlayer1);
         playerButtons[1] = findViewById(R.id.chipPlayer2);
@@ -77,11 +77,11 @@ public class PlayerMenuActivity extends AppCompatActivity {
                     currentPlayer = 0;
                     currentRound++;
                     TextView t = findViewById(R.id.currentRoundText);
-                    t.setText("Aktelle Runde: " + String.valueOf(currentRound));
+                    t.setText(getString(R.string.currentround) + " " + String.valueOf(currentRound));
                 }
 
                 TextView t = findViewById(R.id.currentPlayerText);
-                t.setText("Am Zug: " + players[currentPlayer].getName());
+                t.setText(getString(R.string.currentTurn) + " " + players[currentPlayer].getName());
 
                 if (players[currentPlayer].skipRounds > 0) {
                     players[currentPlayer].skipRounds--;
@@ -99,9 +99,9 @@ public class PlayerMenuActivity extends AppCompatActivity {
             }
         }
         TextView t = findViewById(R.id.ecoScoreTogetherText);
-        t.append(String.valueOf(ecoScoreTogether) + "/" + String.valueOf(numberOfPlayers * 100));
+        t.append(" " + String.valueOf(ecoScoreTogether) + "/" + String.valueOf(numberOfPlayers * 100));
         t = findViewById(R.id.currentRoundText);
-        t.setText("Aktelle Runde: " + String.valueOf(currentRound));
+        t.setText(getString(R.string.currentround) + " " + String.valueOf(currentRound));
     }
 
     private void onButtonClick(View v) {
