@@ -15,12 +15,16 @@ public class PlayerMenuActivity extends AppCompatActivity {
     protected Chip[] playerButtons = new Chip[10];
     protected static Player[] players = new Player[10];
     private static int currentRound = 1;
+    private static int currentPlayer = 0;
+    public static int amountOfPlayers = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_player_menu);
-
+        if (players[currentPlayer] != null) {
+            ((TextView) findViewById(R.id.currentPlayerText)).setText("Am Zug: " + players[currentPlayer].getName());
+        }
         playerButtons[0] = findViewById(R.id.chipPlayer1);
         playerButtons[1] = findViewById(R.id.chipPlayer2);
         playerButtons[2] = findViewById(R.id.chipPlayer3);
@@ -62,23 +66,28 @@ public class PlayerMenuActivity extends AppCompatActivity {
                 onButtonClick(view);
             }
         });
-        ((Button) findViewById(R.id.addRound)).setOnClickListener(new View.OnClickListener() {
+        ((Button) findViewById(R.id.nextPlayerButton)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                currentRound++;
-                TextView t = findViewById(R.id.currentRoundText);
-                t.setText("Aktelle Runde: " + String.valueOf(currentRound));
-                int j = 0;
-                for (Player i : players) {
-                    if (i != null) {
-                        if (i.skipRounds > 0) {
-                            i.skipRounds--;
-                        } else {
-                            i.setMoney(i.getMoney() + i.getSalary());
-                            playerButtons[j].setText(i.getName() + " (" + i.getMoney() / i.getEcoScore() + ")");
-                        }
-                    }
-                    j++;
+                if (amountOfPlayers == 0) {
+                    return;
+                }
+                currentPlayer++;
+                if (currentPlayer + 1 > amountOfPlayers) {
+                    currentPlayer = 0;
+                    currentRound++;
+                    TextView t = findViewById(R.id.currentRoundText);
+                    t.setText("Aktelle Runde: " + String.valueOf(currentRound));
+                }
+
+                TextView t = findViewById(R.id.currentPlayerText);
+                t.setText("Am Zug: " + players[currentPlayer].getName());
+
+                if (players[currentPlayer].skipRounds > 0) {
+                    players[currentPlayer].skipRounds--;
+                } else {
+                    players[currentPlayer].setMoney(players[currentPlayer].getMoney() + players[currentPlayer].getSalary());
+                    playerButtons[currentPlayer].setText(players[currentPlayer].getName() + " (" + players[currentPlayer].getMoney() / players[currentPlayer].getEcoScore() + ")");
                 }
             }
         });

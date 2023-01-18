@@ -121,11 +121,11 @@
         app:layout_constraintTop_toBottomOf="@+id/chipPlayer8" />
 
     <Button
-        android:id="@+id/addRound"
+        android:id="@+id/nextPlayerButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="+ 1 Runde"
+        android:text="Zug Beenden"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/addPlayerButton" />
@@ -139,6 +139,17 @@
         android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addRound" />
+        app:layout_constraintTop_toBottomOf="@+id/nextPlayerButton" />
+
+    <TextView
+        android:id="@+id/currentPlayerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Am Zug: "
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentRoundText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

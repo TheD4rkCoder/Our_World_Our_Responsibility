@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        if (!Job.hasReadFile) {
+            readJobFile();
+        }
         findViewById(R.id.cardButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -42,9 +45,6 @@ public class MainActivity extends AppCompatActivity {
                 onButtonClick(view);
             }
         });
-        if (!Job.hasReadFile) {
-            readJobFile();
-        }
 
     }
 

@@ -54,11 +54,11 @@ public class AddPlayerActivity extends AppCompatActivity {
                     Job.currentCardUni++;
                     p.skipRounds = 4;
                 }else{
-                    j = MainActivity.jobs.get(Job.currentCard);
                     if (Job.currentCard >= MainActivity.jobs.size()) {
                         Collections.shuffle(MainActivity.jobs);
                         Job.currentCard = 0;
                     }
+                    j = MainActivity.jobs.get(Job.currentCard);
                     Job.currentCard++;
                 }
                 p.setName(name.getText().toString());
@@ -68,6 +68,8 @@ public class AddPlayerActivity extends AppCompatActivity {
                 p.university = j.needsUniversity;
                 p.setJob(j.name);
                 p.setLocation(j.location);
+
+                PlayerMenuActivity.amountOfPlayers++;
 
                 p.completeCreation();
                 Intent i = new Intent(getApplicationContext(), PlayerMenuActivity.class);
