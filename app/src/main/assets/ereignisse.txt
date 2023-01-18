@@ -52,7 +52,7 @@ Radunfall!;Du hattest einen Radunfall. Gehe von deinem aktuellen Standort in unt
 Weiterbildung!;Gehe von deinem aktuellen Standpunkt zum Feld Bildungsgebäude.
 Weiterbildung!;Gehe von deinem aktuellen Standpunkt zum Feld Bildungsgebäude.
 Skifahren!;Du willst für einen Wochenendtrip Skifahren gehen. Begib dich von deinem aktuellen Standort in unter 4 Zügen zum Gletscherfeld. Solltest du das nicht in 4 oder weniger Zügen schaffen, musst du für 1 Runde aussetzen.
-S1: Schlauer als das Quiz!;Du erhältst bei einer Fragenkarte die Belohnung, ohne die Frage beantworten zu müssen, musst die Entscheidung jedoch treffen, ohne die Karte zuvor zu lesen.
+S1: Schlauer als das Quiz!;Du erhältst bei einer beliebigen Fragenkarte die Belohnung, ohne die Frage beantworten zu müssen, musst die Entscheidung jedoch treffen, ohne die Karte zuvor zu lesen.
 S2: Fliegen ohne Flieger;Du erhältst ein Flugticket, bei dem dein EcoScore nicht verändert wird. Die Gebühren müssen trotzdem bezahlt werden.
 S3: Risikofrei;Du kannst eine deiner Quizfragen an einen anderen Mitspieler weitergeben.
 S4: Bessere Investition;Zahle jetzt 100€. Für jede 5 Runden, die du die Karte behältst, wird zu deinen 100€ die du gezahlt hast 50€ addiert. Die Karte kannst du zu jedem Zeitpunkt einlösen und das Geld erhalten, solange das Spiel noch läuft.
