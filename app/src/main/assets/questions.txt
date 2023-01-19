@@ -44,4 +44,4 @@ Which greenhouse gas contributes most to climate change?;Nitrous oxide;;+5 EcoSc
 What have you noticed about climate activism recently? (Open question);;Per event +500 Euro (Maximum 5);;;;;;;;END
 Has the climate been constant throughout history, before humans produced greenhouse gases?;No;;+10 EcoScore;;;;;;;END
 What kind of goals do the Global Goals include?;Economic goals;;Environmental goals;Social, economic and environmental goals;Military strategic goals;;5000 Euro;+40 EcoScore;END
-What year have the united nations set themselves as a target for having achieved the Global Goals?;2050;;;2040;2030;2033;;2000 Euro;;END
+What year have the United Nations set themselves as a target for having achieved the Global Goals?;2050;;;2040;2030;2033;;2000 Euro;;END
