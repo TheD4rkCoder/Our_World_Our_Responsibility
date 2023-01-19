@@ -58,8 +58,8 @@ public class MainActivity extends AppCompatActivity {
         if(language == null) {
             language = Locale.getDefault().getLanguage();
         }
-        if(!language.equals(getString(R.string.it))){
-            language = getString(R.string.de);
+        if(!language.equals(getString(R.string.it)) && !language.equals(getString(R.string.de))){
+            language = getString(R.string.en);
         }
         if (!Job.hasReadFile) {
             readJobFile();
@@ -100,6 +100,15 @@ public class MainActivity extends AppCompatActivity {
                         Intent j = new Intent(getApplicationContext(), MainActivity.class);
                         startActivity(j);
                     }else if(lang.equals(getString(R.string.it))){
+                        Configuration config = getBaseContext().getResources().getConfiguration();
+                        locale = new Locale(lang);
+                        config.locale = locale;
+                        getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+
+                        language = lang;
+                        Intent j = new Intent(getApplicationContext(), MainActivity.class);
+                        startActivity(j);
+                    }else if (lang.equals(getString(R.string.en))){
                         Configuration config = getBaseContext().getResources().getConfiguration();
                         locale = new Locale(lang);
                         config.locale = locale;
@@ -159,6 +168,21 @@ public class MainActivity extends AppCompatActivity {
             jobs.clear();
             educatedJobs.clear();
             try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("berufe.txt")))) {
+                for (int i = 0; i < 29; i++) {
+                    String[] temp = br.readLine().split(";");
+                    if (temp[2].equals("T")) {
+                        educatedJobs.add(new Job(true, temp[0], temp[1], Integer.parseInt(temp[3]), Integer.parseInt(temp[4]), Integer.parseInt(temp[5])));
+                    } else {
+                        jobs.add(new Job(false, temp[0], temp[1], Integer.parseInt(temp[3]), Integer.parseInt(temp[4]), Integer.parseInt(temp[5])));
+                    }
+                }
+            } catch (IOException e) {
+                throw new RuntimeException();
+            }
+        }else if(language.equals(getString(R.string.en))){
+            jobs.clear();
+            educatedJobs.clear();
+            try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("jobs.txt")))) {
                 for (int i = 0; i < 29; i++) {
                     String[] temp = br.readLine().split(";");
                     if (temp[2].equals("T")) {
