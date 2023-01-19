@@ -142,6 +142,29 @@ public class CardActivity extends AppCompatActivity {
             } catch (IOException e) {
                 throw new RuntimeException();
             }
+        }else if(MainActivity.language.equals(getString(R.string.en))){
+            questions.clear();
+            try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("questions.txt")))) {
+                for (int i = 0; i < 47; i++) {
+                    String[] temp = br.readLine().split(";"), possibleAnswers, rewards;
+                    // read file into arraylist Questions
+                    if (!temp[6].equals("")) {
+                        possibleAnswers = new String[]{temp[1], temp[4], temp[5], temp[6]};
+                        rewards = new String[]{temp[2], temp[7], temp[8], temp[9]};
+                    } else if (!temp[4].equals("")) {
+                        possibleAnswers = new String[]{temp[1], temp[4]};
+                        rewards = new String[]{temp[2]};
+                    } else {
+                        possibleAnswers = new String[]{temp[1]};
+                        rewards = new String[]{temp[2]};
+                    }
+
+                    questions.add(new Questions(temp[0], possibleAnswers, rewards, temp[3]));
+                }
+                // question;answer1;reward1;penalty;answer2;answer3;answer4;reward2;reward3;reward4
+            } catch (IOException e) {
+                throw new RuntimeException();
+            }
         }
 
         Collections.shuffle(questions);
