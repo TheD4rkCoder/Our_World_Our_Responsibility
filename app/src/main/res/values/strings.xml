@@ -50,4 +50,5 @@
         <item>@string/de</item>
         <item>@string/it</item>
     </string-array>
+    <string name="en" translatable="false">en</string>
 </resources>

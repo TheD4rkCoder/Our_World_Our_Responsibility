@@ -1,5 +1,5 @@
-Incidente stradale!;Sei stato coinvolto in un incidente stradale e ti sei rotto una gamba. Vai immediatamente in ospedale. Inoltre, i due tiri successivi vengono dimezzati (i tiri dispari vengono aprossimato per difetti).
-Incidente stradale!;Sei stato coinvolto in un incidente stradale e ti sei rotto una gamba. Vai immediatamente in ospedale. Inoltre, i due tiri successivi vengono dimezzati (i tiri dispari vengono aprossimato per difetti).
+Incidente stradale!;Sei stato coinvolto in un incidente stradale e ti sei rotto una gamba. Avanza immediatamente all'ospedale. Inoltre, i due tiri successivi vengono dimezzati (i tiri dispari vengono aprossimato per difetti).
+Incidente stradale!;Sei stato coinvolto in un incidente stradale e ti sei rotto una gamba. Avanza immediatamente all'ospedale. Inoltre, i due tiri successivi vengono dimezzati (i tiri dispari vengono aprossimato per difetti).
 Capo fortunato;Ottieni il doppio dello stipendio per un turno.
 Le tasse devono essere pagate!;Consegna un decimo del tuo denaro.
 Le tasse devono essere pagate!;Consegna un decimo del tuo denaro.
@@ -47,11 +47,11 @@ Quiz di conoscenza!;Tutti i giocatori sono invitati a partecipare a un quiz di c
 Quiz di conoscenza!;Tutti i giocatori sono invitati a partecipare a un quiz di conoscenza. Ogni giocatore pesca una carta domanda.
 Quiz di conoscenza!;Tutti i giocatori sono invitati a partecipare a un quiz di conoscenza. Ogni giocatore pesca una carta domanda.
 Buon umore!;Oggi sei di ottimo umore. Dai 100€ a ciascuno dei propri compagni di gioco.
-Incidente in bicicletta!;Hai avuto un incidente in bicicletta. Vai dalla tua posizione attuale al campo di polizia in meno di 3 mosse. Se ci riuscite in 3 mosse o meno, ricevi 1000€. Se non ce la fai, devi assumerti la responsabilità dell'incidente stradale e paghi 1000€.
-Incidente in bicicletta!;Hai avuto un incidente in bicicletta. Vai dalla tua posizione attuale al campo di polizia in meno di 3 mosse. Se ci riuscite in 3 mosse o meno, ricevi 1000€. Se non ce la fai, devi assumerti la responsabilità dell'incidente stradale e paghi 1000€.
+Incidente in bicicletta!;Hai avuto un incidente in bicicletta. Avanza dalla tua posizione attuale al campo di polizia in meno di 3 mosse. Se ci riuscite in 3 mosse o meno, ricevi 1000€. Se non ce la fai, devi assumerti la responsabilità dell'incidente stradale e paghi 1000€.
+Incidente in bicicletta!;Hai avuto un incidente in bicicletta. Avanza dalla tua posizione attuale al campo di polizia in meno di 3 mosse. Se ci riuscite in 3 mosse o meno, ricevi 1000€. Se non ce la fai, devi assumerti la responsabilità dell'incidente stradale e paghi 1000€.
 Perfezionamento;Passa dalla posizione attuale al campo dell'edilizia scolastica.
 Perfezionamento;Passa dalla posizione attuale al campo dell'edilizia scolastica.
-Sciare;Volete andare a sciare per un fine settimana. Vai dalla tua posizione attuale al campo del ghiacciaio in meno di 4 mosse. Se non riesci a farlo in 4 mosse o meno, devi ritirarti per 1 turno.
+Sciare;Volete andare a sciare per un fine settimana. Avanza dalla tua posizione attuale al campo del ghiacciaio in meno di 4 mosse. Se non riesci a farlo in 4 mosse o meno, devi ritirarti per 1 turno.
 S1: Più intelligente del quiz!;Si ottiene la ricompensa su una qualsiasi carta domanda senza dover rispondere alla domanda, ma si deve prendere la decisione senza leggere prima la carta.
 S2: Volare senza aereo;Si ottiene un biglietto aereo per un volo gratuito. L'EcoScore aumenta comunque.
 S3: Senza rischi;È possibile regalare uno dei propri quiz a un altro giocatore.

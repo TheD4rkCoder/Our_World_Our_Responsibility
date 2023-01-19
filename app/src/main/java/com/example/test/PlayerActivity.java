@@ -110,7 +110,7 @@ public class PlayerActivity extends AppCompatActivity {
         t.setText(s);
         t = findViewById(R.id.skipRoundCounterText);
         if (p.skipRounds > 0) {
-            t.setText(getString(R.string.you_get_in_the_next) + p.skipRounds + getString(R.string.rounds_no_salary));
+            t.setText(getString(R.string.you_get_in_the_next) + " " + p.skipRounds + " " + getString(R.string.rounds_no_salary));
             // you_get_in_the_next
             // rounds_no_salary
             t.setVisibility(View.VISIBLE);

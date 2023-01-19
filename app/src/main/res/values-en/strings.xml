@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">test</string>
+    <string name="spieler_button_text">overview players</string>
+    <string name="karten_button_text">draw cards</string>
+    <string name="input_name_field">name</string>
+    <string name="univerity_switch">university</string>
+    <string name="create_button">Create</string>
+    <string name="create_help_text"><![CDATA[If you want a Job, that requires going to university (Switch "university"), you will not get any salary for 4 rounds]]></string>
+    <string name="questioncard">question card</string>
+    <string name="eventcard">event card</string>
+    <string name="kontostand">balance</string>
+    <string name="salary">salary</string>
+    <string name="skiproundbutton">+1 round without salary</string>
+    <string name="changejobbutton">change job</string>
+    <string name="eco_score_together_text">collective EcoScore</string>
+    <string name="add_player_button">add player</string>
+    <string name="end_turn">finish turn</string>
+    <string name="currentTurn">turn:</string>
+    <string name="currentround">Current round:</string>
+    <string name="continuecardbutton">Continue</string>
+    <string name="fill_correctly_toast">Please fill in every field correctly</string>
+    <string name="reward_or_penalty">reward and/or penalty:</string>
+    <string name="possible_answers">possible answers:</string>
+    <string name="reward">reward:</string>
+    <string name="penalty">penalty:</string>
+    <string name="show_solution">show solution</string>
+    <string name="change_help_toast">Each change needs +,-,* or / before the number.</string>
+    <string name="locationOfJob">area of occupation</string>
+    <string name="month">month</string>
+    <string name="you_get_in_the_next">For the next</string>
+    <string name="rounds_no_salary">rounds you won\'t get salary.</string>
+    <string name="Willkommen_Text">Welcome</string>
+    <string name="answer">answer:</string>
+    <string name="change">change:</string>
+    <string name="confirm">confirm:</string>
+</resources>
