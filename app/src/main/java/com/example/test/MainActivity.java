@@ -21,7 +21,7 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
     static ArrayList<Job> jobs = new ArrayList<>();
     static ArrayList<Job> educatedJobs = new ArrayList<>();
-    static String language = "de";
+    static String language = null;
     /*
         if (Job.currentCard >= jobs.size()) {
             Collections.shuffle(jobs);
@@ -55,7 +55,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        language = Locale.getDefault().getLanguage();
+        if(language == null) {
+            language = Locale.getDefault().getLanguage();
+        }
         if(!language.equals(getString(R.string.it))){
             language = getString(R.string.de);
         }
