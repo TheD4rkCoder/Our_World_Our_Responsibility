@@ -6,7 +6,7 @@ Straßenarbeiter;Stadt;F;7800;1000;33
 Anwalt;Stadt;T;1800;2900;30
 Praktikant;Stadt;F;2300;700;10
 Immobilienmakler;Stadt;T;4600;2100;35
-Politiker;Stadt;F;500;4000;50
+Politiker;Stadt;F;500;3500;50
 Polizist;Stadt;F;4500;2000;25
 Bauer;Land;F;6700;1300;38
 Handwerker;Land;F;7000;1600;31

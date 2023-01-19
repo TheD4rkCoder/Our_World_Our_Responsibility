@@ -77,7 +77,7 @@ public class PlayerMenuActivity extends AppCompatActivity {
                     currentPlayer = 0;
                     currentRound++;
                     TextView t = findViewById(R.id.currentRoundText);
-                    t.setText(getString(R.string.currentround) + " " + String.valueOf(currentRound));
+                    t.setText(getString(R.string.currentround) + " " + String.valueOf(currentRound) + "/" + 25);
                 }
 
                 TextView t = findViewById(R.id.currentPlayerText);

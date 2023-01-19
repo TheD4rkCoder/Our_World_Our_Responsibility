@@ -53,9 +53,9 @@ Weiterbildung!;Gehe von deinem aktuellen Standpunkt zum Feld Bildungsgebäude.
 Weiterbildung!;Gehe von deinem aktuellen Standpunkt zum Feld Bildungsgebäude.
 Skifahren!;Du willst für einen Wochenendtrip Skifahren gehen. Begib dich von deinem aktuellen Standort in unter 4 Zügen zum Gletscherfeld. Solltest du das nicht in 4 oder weniger Zügen schaffen, musst du für 1 Runde aussetzen.
 S1: Schlauer als das Quiz!;Du erhältst bei einer beliebigen Fragenkarte die Belohnung, ohne die Frage beantworten zu müssen, musst die Entscheidung jedoch treffen, ohne die Karte zuvor zu lesen.
-S2: Fliegen ohne Flieger;Du erhältst ein Flugticket, bei dem dein EcoScore nicht verändert wird. Die Gebühren müssen trotzdem bezahlt werden.
+S2: Fliegen ohne Flieger;Du erhältst ein Flugticket, bei dem dir die Gebühren erstattet werden.Dein EcoScore wird trotzdem erhöht.
 S3: Risikofrei;Du kannst eine deiner Quizfragen an einen anderen Mitspieler weitergeben.
 S4: Bessere Investition;Zahle jetzt 100€. Für jede 5 Runden, die du die Karte behältst, wird zu deinen 100€ die du gezahlt hast 50€ addiert. Die Karte kannst du zu jedem Zeitpunkt einlösen und das Geld erhalten, solange das Spiel noch läuft.
-S5: Umweltbändiger;Du kannst eine Ereigniskarte ignorieren, musst die Entscheidung jedoch treffen, ohne die Karte zuvor zu lesen.
+S5: Umweltaktivist;Du kannst eine Ereigniskarte ignorieren, musst die Entscheidung jedoch treffen, ohne die Karte zuvor zu lesen.
 S6: Jackpot;Verdopple deine Belohnung bei einer Quizfrage, du musst die Entscheidung jedoch treffen, ohne die Karte zuvor zu lesen.
 Finanzberater;Du lässt dich über Investitionen beraten. Option 1: x Euro in die Fossil-Industrie investieren und nächste Runde 20% mehr zurückgewinnen, dafür werden dir x/1000 EcoScore Punkte abgezogen. Option 2: x Euro in erneuerbare Energien investieren und nächste Runde 5% mehr zurückbekommen (x muss ein Vielfaches von 1000 sein)

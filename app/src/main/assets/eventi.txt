@@ -53,9 +53,9 @@ Perfezionamento;Passa dalla posizione attuale al campo dell'edilizia scolastica.
 Perfezionamento;Passa dalla posizione attuale al campo dell'edilizia scolastica.
 Sciare;Volete andare a sciare per un fine settimana. Vai dalla tua posizione attuale al campo del ghiacciaio in meno di 4 mosse. Se non riesci a farlo in 4 mosse o meno, devi ritirarti per 1 turno.
 S1: Più intelligente del quiz!;Si ottiene la ricompensa su una qualsiasi carta domanda senza dover rispondere alla domanda, ma si deve prendere la decisione senza leggere prima la carta.
-S2: Volare senza aereo;Si ottiene un biglietto aereo in cui il proprio EcoScore non viene modificato. Si deve comunque pagare le tasse.
+S2: Volare senza aereo;Si ottiene un biglietto aereo per un volo gratuito. L'EcoScore aumenta comunque.
 S3: Senza rischi;È possibile regalare uno dei propri quiz a un altro giocatore.
 S4: Investimento migliore; Paga subito 100€. Per ogni 5 turni in cui si conserva la carta, vengono aggiunti 50€ ai 100€ pagati. È possibile riscattare la carta in qualsiasi momento e ottenere il denaro mentre il gioco è ancora in corso.
-S5: Domatore d'Ambiente;Potete ignorare una carta evento, ma dovete prendere la decisione senza prima leggere la carta.
+S5: attivista ambientale;Potete ignorare una carta evento, ma dovete prendere la decisione senza prima leggere la carta.
 S6: Jackpot;Raddoppia la tua ricompensa su una domanda del quiz, ma devi decidere senza leggere prima la carta.
 Consulente finanziario;Ricevi una consulenza sugli investimenti. Opzione 1: Investire x euro nell'industria fossile e ottenere il 20% in più al prossimo giro, per cui vengono aggiunti x/1000 punti EcoScore. Opzione 2: Investire x euro nelle energie rinnovabili e ottenere il 5% in più il prossimo giro (x deve essere un multiplo di 1000).

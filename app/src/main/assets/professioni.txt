@@ -6,7 +6,7 @@ stradino;città;F;7800;1000;33
 avvocato;città;T;1800;2900;30
 tirocinante;città;F;2300;700;10
 agente immobiliare;città;T;4600;2100;35
-politico;città;F;500;4000;50
+politico;città;F;500;3500;50
 poliziotto;città;F;4500;2000;25
 contadino;campagna;F;6700;1300;38
 artigiano;campagna;F;7000;1600;31
