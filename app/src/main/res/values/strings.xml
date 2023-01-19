@@ -40,10 +40,14 @@
     <string name="rounds_no_salary">Runden kein Gehalt</string>
     <string name="Willkommen_Text">Willkommen</string>
     <string name="answer">Antwort:</string>
+    <string name="change">Ändern:</string>
+    <string name="confirm">Bestätigen</string>
+    <string name="it" translatable="false">IT</string>
+    <string name="de" translatable="false">DE</string>
 
     <string-array name="languages">
-        <item>Select a language</item>
-        <item>de</item>
-        <item>it</item>
+        <item>Change language</item>
+        <item>@string/de</item>
+        <item>@string/it</item>
     </string-array>
 </resources>

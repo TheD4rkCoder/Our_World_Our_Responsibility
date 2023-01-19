@@ -66,7 +66,7 @@ public class CardActivity extends AppCompatActivity {
         Event.hasReadFile = true;
         Event.language = MainActivity.language;
 
-        if(MainActivity.language.equals("it")){
+        if(MainActivity.language.equals(getString(R.string.it))){
             events.clear();
             try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("eventi.txt")))) {
                 for (int i = 0; i < 60; i++) {
@@ -76,7 +76,7 @@ public class CardActivity extends AppCompatActivity {
             } catch (IOException e) {
                 throw new RuntimeException();
             }
-        }else if(MainActivity.language.equals("de")) {
+        }else if(MainActivity.language.equals(getString(R.string.de))) {
             events.clear();
             try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("ereignisse.txt")))) {
                 for (int i = 0; i < 60; i++) {
@@ -96,7 +96,7 @@ public class CardActivity extends AppCompatActivity {
         Questions.hasReadFile = true;
         Questions.language = MainActivity.language;
 
-        if(MainActivity.language.equals("it")) {
+        if(MainActivity.language.equals(getString(R.string.it))) {
             questions.clear();
             try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("domande.txt")))) {
                 for (int i = 0; i < 47; i++) {
@@ -119,7 +119,7 @@ public class CardActivity extends AppCompatActivity {
             } catch (IOException e) {
                 throw new RuntimeException();
             }
-        }else if(MainActivity.language.equals("de")){
+        }else if(MainActivity.language.equals(getString(R.string.de))){
             questions.clear();
             try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("fragen.txt")))) {
                 for (int i = 0; i < 47; i++) {

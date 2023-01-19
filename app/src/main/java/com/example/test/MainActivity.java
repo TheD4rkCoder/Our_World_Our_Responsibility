@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        language = getString(R.string.de);
         if (!Job.hasReadFile) {
             readJobFile();
         }
@@ -84,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 String lang = (String)adapterView.getItemAtPosition(i);
                 if(!lang.equals("Select a language")){
-                    if(lang.equals("de")){
+                    if(lang.equals(getString(R.string.de))){
                         Configuration config = getBaseContext().getResources().getConfiguration();
                         locale = new Locale("");
                         config.locale = locale;
@@ -93,9 +94,9 @@ public class MainActivity extends AppCompatActivity {
                         language = lang;
                         Intent j = new Intent(getApplicationContext(), MainActivity.class);
                         startActivity(j);
-                    }else if(lang.equals("it")){
+                    }else if(lang.equals(getString(R.string.it))){
                         Configuration config = getBaseContext().getResources().getConfiguration();
-                        locale = new Locale("it");
+                        locale = new Locale(lang);
                         config.locale = locale;
                         getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
 
@@ -134,8 +135,7 @@ public class MainActivity extends AppCompatActivity {
         Job.hasReadFile = true;
         Job.language = language;
 
-        if(language.equals("it")) {
-            Toast.makeText(getApplicationContext(), getText(R.string.fill_correctly_toast), Toast.LENGTH_LONG).show();
+        if(language.equals(getString(R.string.it))) {
             jobs.clear();
             educatedJobs.clear();
             try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("professioni.txt")))) {
@@ -150,8 +150,7 @@ public class MainActivity extends AppCompatActivity {
             } catch (IOException e) {
                 throw new RuntimeException();
             }
-        }else if(language.equals("de")){
-
+        }else if(language.equals(getString(R.string.de))){
             jobs.clear();
             educatedJobs.clear();
             try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("berufe.txt")))) {
