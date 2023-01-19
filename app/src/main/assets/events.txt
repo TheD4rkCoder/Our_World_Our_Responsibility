@@ -49,8 +49,8 @@ Knowledge quiz!;All players are invited to take part in a knowledge quiz. Each p
 Good mood!;You are in a very good mood today. You give each of your fellow players 100€.
 Cycling accident!;You have had a cycling accident. Go from your current location to the police field in less than 3 moves. If you make it in 3 moves or less, you will receive 1000€. If you don't make it, you have to take responsibility for the car accident and pay 1000€.
 Cycling accident!;You have had a cycling accident. Go from your current location to the police field in less than 3 moves. If you make it in 3 moves or less, you will receive 1000€. If you don't make it, you have to take responsibility for the car accident and pay 1000€.
-Go from your current position to the Education Building field.
-Go from your current position to the Education Building field.
+Advanced education!;Go from your current position to the Education Building field.
+Advanced education!;Go from your current position to the Education Building field.
 Skiing;You want to go skiing for a weekend trip. Go from your current location to the glacier field in under 4 moves. If you cannot do this in 4 moves or less, you will have to sit out for 1 round.
 S1: Smarter than the quiz!;You get the reward on any question card without having to answer the question, but you must make the decision without reading the card first.
 S2: Fly without a plane;You get a plane ticket where the fees are refunded to you.Your EcoScore is increased anyway.

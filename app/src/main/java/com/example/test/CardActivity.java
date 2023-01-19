@@ -69,7 +69,7 @@ public class CardActivity extends AppCompatActivity {
         if(MainActivity.language.equals(getString(R.string.it))){
             events.clear();
             try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("eventi.txt")))) {
-                for (int i = 0; i < 60; i++) {
+                for (int i = 0; i < 61; i++) {
                     String[] temp = br.readLine().split(";");
                     events.add(new Event(temp[0], temp[1]));
                 }
@@ -79,7 +79,7 @@ public class CardActivity extends AppCompatActivity {
         }else if(MainActivity.language.equals(getString(R.string.de))) {
             events.clear();
             try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("ereignisse.txt")))) {
-                for (int i = 0; i < 60; i++) {
+                for (int i = 0; i < 61; i++) {
                     String[] temp = br.readLine().split(";");
                     events.add(new Event(temp[0], temp[1]));
                 }
@@ -89,7 +89,7 @@ public class CardActivity extends AppCompatActivity {
         }else if(MainActivity.language.equals(getString(R.string.en))) {
             events.clear();
             try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("events.txt")))) {
-                for (int i = 0; i < 60; i++) {
+                for (int i = 0; i < 61; i++) {
                     String[] temp = br.readLine().split(";");
                     events.add(new Event(temp[0], temp[1]));
                 }

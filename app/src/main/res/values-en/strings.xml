@@ -6,7 +6,7 @@
     <string name="input_name_field">name</string>
     <string name="univerity_switch">university</string>
     <string name="create_button">Create</string>
-    <string name="create_help_text"><![CDATA[If you want a Job, that requires going to university (Switch "university"), you will not get any salary for 4 rounds]]></string>
+    <string name="create_help_text"><![CDATA[If you want a Job that requires going to university (Switch "university") you will not get any salary for 4 rounds]]></string>
     <string name="questioncard">question card</string>
     <string name="eventcard">event card</string>
     <string name="kontostand">balance:</string>
