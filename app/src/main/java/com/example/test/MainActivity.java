@@ -55,7 +55,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        language = getString(R.string.de);
+        language = Locale.getDefault().getLanguage();
+        if(!language.equals(getString(R.string.it))){
+            language = getString(R.string.de);
+        }
         if (!Job.hasReadFile) {
             readJobFile();
         }
