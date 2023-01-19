@@ -1,18 +1,18 @@
-Incidente stradale!;Sei stato coinvolto in un incidente stradale e ti sei rotto una gamba. Avanza immediatamente all'ospedale. Inoltre, i due tiri successivi vengono dimezzati (i tiri dispari vengono aprossimato per difetti).
-Incidente stradale!;Sei stato coinvolto in un incidente stradale e ti sei rotto una gamba. Avanza immediatamente all'ospedale. Inoltre, i due tiri successivi vengono dimezzati (i tiri dispari vengono aprossimato per difetti).
-Capo fortunato;Ottieni il doppio dello stipendio per un turno.
-Le tasse devono essere pagate!;Consegna un decimo del tuo denaro.
-Le tasse devono essere pagate!;Consegna un decimo del tuo denaro.
-Le tasse devono essere pagate!;Consegna un decimo del tuo denaro.
-Vroom Vrooooom!;Hai acquistato una nuova auto. Paga 4000€. Ora è possibile spostarsi di 1 spazio in più ogni turno al prezzo di 1 EcoScore.
-Molto utile;Aiuti un ente di beneficenza che lavora per ripulire le strade. Il tuo EcoScore si riduce di 5.
-Molto utile;Aiuti un ente di beneficenza che lavora per ripulire le strade. Il tuo EcoScore si riduce di 5.
-Molto utile;Aiuti un ente di beneficenza che lavora per ripulire le strade. Il tuo EcoScore si riduce di 5.
+Incidente stradale!;Sei stato coinvolto in un incidente stradale e ti sei rotto una gamba. Avanza immediatamente all'ospedale. Inoltre, i due tiri successivi vengono dimezzati (i tiri dispari vengono arrotondati per difetto).
+Incidente stradale!;Sei stato coinvolto in un incidente stradale e ti sei rotto una gamba. Avanza immediatamente all'ospedale. Inoltre, i due tiri successivi vengono dimezzati (i tiri dispari vengono arrotondati per difetto).
+Capo generoso;Ottieni il doppio dello stipendio per un turno.
+Le tasse devono essere pagate!;Perdi un decimo del tuo denaro.
+Le tasse devono essere pagate!;Perdi un decimo del tuo denaro.
+Le tasse devono essere pagate!;Perdi un decimo del tuo denaro.
+Vroom Vrooooom!;Hai acquistato una macchina nuova. Paga 4000€. Adesso in ogni turno puoi aggiungere 1 casella al risultato del dado, peró ricevi 1 EcoScore.
+Sempre pronto ad aiutare;Aiuti un ente di beneficenza che lavora per ripulire le strade. Il tuo EcoScore si riduce di 5.
+Sempre pronto ad aiutare;Aiuti un ente di beneficenza che lavora per ripulire le strade. Il tuo EcoScore si riduce di 5.
+Sempre pronto ad aiutare;Aiuti un ente di beneficenza che lavora per ripulire le strade. Il tuo EcoScore si riduce di 5.
 Compleanno;È il tuo compleanno. Ricevi 1000€.
 Compleanno;È il tuo compleanno. Ricevi 1000€.
 Troppo divertente;Sanzione per eccesso di velocità. Paga 1000€. Il tuo EcoScore aumenta di 5.
-Riduzione dello stipendio;La tua azienda è stata accusata di evasione fiscale. Tuo stipendio viene dimezzato per le 5 mosse successive.
-Fortuna;Hai vinto la lotteria! 20.000€ sul tuo conto.
+Riduzione dello stipendio;La tua azienda è stata accusata di evasione fiscale.Il tuo stipendio viene dimezzato per le 5 mosse successive.
+Fortuna;Hai vinto la lotteria! Ricevi 20.000€ sul tuo conto.
 I prezzi dell'elettricità aumentano; Paga 200€.
 I prezzi dell'elettricità aumentano; Paga 200€
 Affitto;L'affitto è scaduto da 2 mesi. Paga 2500€
@@ -21,41 +21,41 @@ Amante dell'auto;Sei andato al lavoro in auto. Il tuo EcoScore aumenta di 2.
 Amante dell'auto;Sei andato al lavoro in auto. Il tuo EcoScore aumenta di 2.
 Amante dell'auto;Sei andato al lavoro in auto. Il tuo EcoScore aumenta di 2.
 Amante dell'auto;Sei andato al lavoro in auto. Il tuo EcoScore aumenta di 2.
-Acquisto di una casa;Stai acquistando una casa. Scegli: Certificato casa clima A+. Paga 10.000€ e il tuo EcoScore si riduce di 5 o Certificato casa clima G. Paga 2.000€ e il tuo EcoScore aumenta di 2.
-La casa crolla!;La tua casa deve essere ristrutturata dopo i danni al tetto. Paga 1.000€.
-Tornado;La vostra zona è devastata da un tornado. Tutti i giocatori nell'area corrente pagano 600€ per la riparazione dei danni.
-Brainstorm; Avanzare nel campo universitario!
-Brainstorm; Avanzare nel campo universitario!
+Acquisto di una casa;Stai acquistando una casa. Scegli: Certificato casa clima A+. Paga 25.000€ e il tuo EcoScore si riduce di 5 o Certificato casa clima G. Paga 5.000€ e il tuo EcoScore aumenta di 5.
+La casa crolla!;La tua casa deve essere ristrutturata per i danni al tetto. Paga 1.000€.
+Tornado;La tua zona è devastata da un tornado. Tutti i giocatori nella tua zona pagano 600€ per la riparazione dei danni.
+Brainstorm; Avanzare alla casella universitaria!
+Brainstorm; Avanzare alla casella universitaria!
 Colla per il clima;Gli attivisti per il clima si sono incollati in strada. L'EcoScore di tutti i giocatori della città viene ridotto di 2. Inoltre, le prossime 3 mosse di tutti i giocatori della città vengono ridotte a 1.
 Colla per il clima;Gli attivisti per il clima si sono incollati in strada. L'EcoScore di tutti i giocatori della città viene ridotto di 2. Inoltre, le prossime 3 mosse di tutti i giocatori della città vengono ridotte a 1.
-Tagliatore di strada;Hai tolto il diritto di precedenza al giocatore alla tua destra. Devi pagare 200€ al giocatore alla tua destra.
-Tagliatore di strada;Hai tolto il diritto di precedenza al giocatore alla tua destra. Devi pagare 200€ al giocatore alla tua destra.
-Tagliatore di strada;Hai tolto il diritto di precedenza al giocatore alla tua destra. Devi pagare 200€ al giocatore alla tua destra.
-Azione di soccorso!;Incontri un'azione di raccolta volontaria dei rifiuti e ti unisci ad essa. Il tuo EcoScore si riduce di 5. Salti un turno.
-Azione di soccorso!;Incontri un'azione di raccolta volontaria dei rifiuti e ti unisci ad essa. Il tuo EcoScore si riduce di 5. Salti un turno.
+Non hai dato la precedenza!;Hai tolto il diritto di precedenza al giocatore alla tua destra. Devi pagare 200€ al giocatore alla tua destra.
+Non hai dato la precedenza!;Hai tolto il diritto di precedenza al giocatore alla tua destra. Devi pagare 200€ al giocatore alla tua destra.
+Non hai dato la precedenza!;Hai tolto il diritto di precedenza al giocatore alla tua destra. Devi pagare 200€ al giocatore alla tua destra.
+Azione di soccorso!;Incontri un'azione di raccolta volontaria dei rifiuti e partecipi. Il tuo EcoScore si riduce di 5. Salti un turno.
+Azione di soccorso!;Incontri un'azione di raccolta volontaria dei rifiuti e partecipi. Il tuo EcoScore si riduce di 5. Salti un turno.
 Crisi climatica;Una fabbrica di petrolio ha un oleodotto rotto. L'EcoScore di tutti i giocatori viene incrementato di 5.
 Commercio equo e solidale;Hai fatto la tua spesa settimanale in un negozio di commercio equo e solidale. Paga 200€ e il tuo EcoScore viene ridotto di 2.
 Un buon investimento; Investi nelle energie rinnovabili. Paga 2000€. Nel turno successivo ottieni il 10% di stipendio in più e l'EcoScore si riduce di 2.
 Un buon investimento; Investi nelle energie rinnovabili. Paga 2000€. Nel turno successivo ottieni il 10% di stipendio in più e l'EcoScore si riduce di 2.
-Esecutore di debiti;Ogni giocatore ti paga 200€.
-Esecutore di debiti;Ogni giocatore ti paga 200€.
-Esecutore di debiti;Ogni giocatore ti paga 200€.
-Raccoglitore di depositi;Hai restituito 100 bottiglie di deposito. Ricevi 500€ e il tuo EcoScore viene ridotto di 2.
-Raccoglitore di depositi;Hai restituito 100 bottiglie di deposito. Ricevi 500€ e il tuo EcoScore viene ridotto di 2.
-Raccoglitore di depositi;Hai restituito 100 bottiglie di deposito. Ricevi 500€ e il tuo EcoScore viene ridotto di 2.
+Esattore di debiti;Ogni giocatore ti paga 200€.
+Esattore di debiti;Ogni giocatore ti paga 200€.
+Esattore di debiti;Ogni giocatore ti paga 200€.
+Raccoglitore di bottiglie;Hai restituito 100 bottiglie con deposito. Ricevi 500€ e il tuo EcoScore viene ridotto di 2.
+Raccoglitore di bottiglie;Hai restituito 100 bottiglie con deposito. Ricevi 500€ e il tuo EcoScore viene ridotto di 2.
+Raccoglitore di bottiglie;Hai restituito 100 bottiglie con deposito. Ricevi 500€ e il tuo EcoScore viene ridotto di 2.
 Quiz di conoscenza!;Tutti i giocatori sono invitati a partecipare a un quiz di conoscenza. Ogni giocatore pesca una carta domanda.
 Quiz di conoscenza!;Tutti i giocatori sono invitati a partecipare a un quiz di conoscenza. Ogni giocatore pesca una carta domanda.
 Quiz di conoscenza!;Tutti i giocatori sono invitati a partecipare a un quiz di conoscenza. Ogni giocatore pesca una carta domanda.
-Buon umore!;Oggi sei di ottimo umore. Dai 100€ a ciascuno dei propri compagni di gioco.
-Incidente in bicicletta!;Hai avuto un incidente in bicicletta. Avanza dalla tua posizione attuale al campo di polizia in meno di 3 mosse. Se ci riuscite in 3 mosse o meno, ricevi 1000€. Se non ce la fai, devi assumerti la responsabilità dell'incidente stradale e paghi 1000€.
-Incidente in bicicletta!;Hai avuto un incidente in bicicletta. Avanza dalla tua posizione attuale al campo di polizia in meno di 3 mosse. Se ci riuscite in 3 mosse o meno, ricevi 1000€. Se non ce la fai, devi assumerti la responsabilità dell'incidente stradale e paghi 1000€.
-Perfezionamento;Passa dalla posizione attuale al campo dell'edilizia scolastica.
-Perfezionamento;Passa dalla posizione attuale al campo dell'edilizia scolastica.
-Sciare;Volete andare a sciare per un fine settimana. Avanza dalla tua posizione attuale al campo del ghiacciaio in meno di 4 mosse. Se non riesci a farlo in 4 mosse o meno, devi ritirarti per 1 turno.
-S1: Più intelligente del quiz!;Si ottiene la ricompensa su una qualsiasi carta domanda senza dover rispondere alla domanda, ma si deve prendere la decisione senza leggere prima la carta.
-S2: Volare senza aereo;Si ottiene un biglietto aereo per un volo gratuito. L'EcoScore aumenta comunque.
-S3: Senza rischi;È possibile regalare uno dei propri quiz a un altro giocatore.
-S4: Investimento migliore; Paga subito 100€. Per ogni 5 turni in cui si conserva la carta, vengono aggiunti 50€ ai 100€ pagati. È possibile riscattare la carta in qualsiasi momento e ottenere il denaro mentre il gioco è ancora in corso.
-S5: attivista ambientale;Potete ignorare una carta evento, ma dovete prendere la decisione senza prima leggere la carta.
-S6: Jackpot;Raddoppia la tua ricompensa su una domanda del quiz, ma devi decidere senza leggere prima la carta.
+Buon umore!;Oggi sei di ottimo umore. Dai 100€ a ciascuno dei tuoi compagni di gioco.
+Incidente in bicicletta!;Hai avuto un incidente in bicicletta. Avanza dalla tua posizione attuale alla casella di polizia in meno di 3 mosse. Se ci riesci in 3 mosse o meno, ricevi 1000€. Se non ce la fai, devi assumerti la responsabilità dell'incidente stradale e paghi 1000€.
+Incidente in bicicletta!;Hai avuto un incidente in bicicletta. Avanza dalla tua posizione attuale alla casella di polizia in meno di 3 mosse. Se ci riesci in 3 mosse o meno, ricevi 1000€. Se non ce la fai, devi assumerti la responsabilità dell'incidente stradale e paghi 1000€.
+Perfezionamento;Passa dalla posizione attuale alla casella dell'edilizia scolastica.
+Perfezionamento;Passa dalla posizione attuale alla casella dell'edilizia scolastica.
+Sciare;Volete andare a sciare nel fine settimana. Avanza dalla tua posizione attuale alla casella del ghiacciaio in meno di 4 mosse. Se non riesci a farlo in 4 mosse o meno, salti 1 turno.
+S1: Più intelligente del quiz!;Ottieni la ricompensa su una qualsiasi carta domanda senza dover rispondere alla domanda, ma devi prendere la decisione prima di leggere la carta.
+S2: Volare senza aereo;Ottieni un biglietto aereo per un volo gratuito. L'EcoScore aumenta comunque.
+S3: Senza rischi;Puoi passare una tua domanda da quiz ad un altro giocatore.
+S4: Investimento migliore; Paga subito 100€. Per ogni 5 turni in cui si conserva la carta, vengono aggiunti 50€ ai 100€ pagati. Puoi riscattare la carta in qualsiasi momento e ottenere il denaro mentre il gioco è ancora in corso.
+S5: Attivista ambientale;Puoi ignorare una carta evento, ma devi prendere la decisione prima di leggere la carta.
+S6: Jackpot;Raddoppia la tua ricompensa su una domanda del quiz, ma devi prendere la decisione prima di leggere la carta.
 Consulente finanziario;Ricevi una consulenza sugli investimenti. Opzione 1: Investire x euro nell'industria fossile e ottenere il 20% in più al prossimo giro, per cui vengono aggiunti x/1000 punti EcoScore. Opzione 2: Investire x euro nelle energie rinnovabili e ottenere il 5% in più il prossimo giro (x deve essere un multiplo di 1000).

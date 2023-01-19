@@ -16,7 +16,7 @@ fornitore;campagna;F;4700;1500;39
 pastore;campagna;T;5000;1700;32
 proprietario del parco divertimenti;campagna;F;4800;2500;40
 albergatore;costa;F;4400;2000;41
-iistruttore di surf;costa;F;6000;1300;22
+istruttore di surf;costa;F;6000;1300;22
 pescatore;costa;F;5400;1400;40
 guida turistica;costa;F;5600;1400;40
 biologo marino;costa;T;4500;1800;30

@@ -77,7 +77,7 @@ public class PlayerMenuActivity extends AppCompatActivity {
                     currentPlayer = 0;
                     currentRound++;
                     TextView t = findViewById(R.id.currentRoundText);
-                    t.setText(getString(R.string.currentround) + " " + String.valueOf(currentRound) + "/" + 25);
+                    t.setText(getString(R.string.currentround) + " " + String.valueOf(currentRound) + "/" + 14);
                 }
 
                 TextView t = findViewById(R.id.currentPlayerText);
@@ -105,7 +105,7 @@ public class PlayerMenuActivity extends AppCompatActivity {
         TextView t = findViewById(R.id.ecoScoreTogetherText);
         t.append(" " + String.valueOf(ecoScoreTogether) + "/" + String.valueOf(numberOfPlayers * 100));
         t = findViewById(R.id.currentRoundText);
-        t.setText(getString(R.string.currentround) + " " + String.valueOf(currentRound) + "/" + 25);
+        t.setText(getString(R.string.currentround) + " " + String.valueOf(currentRound) + "/" + 14);
     }
 
     private void onButtonClick(View v) {

@@ -1,47 +1,47 @@
 Quale industria è responsabile del maggior numero di emissioni?;Industria energetica;Lancia il dado di nuovo;;;;;;;;END
-Quale paese produce le minori emissioni di CO2 pro capite? (stato 2020);Portogallo;-5 EcoScore;;Svizzera;Svezia;Italia;;;+10 EcoScore;END
-Qual è il Paese che produce più emissioni di CO2 pro capite? (stato 2020);Cina;;;Qatar;USA;Arabia Saudita;4000 Euro;;;END
+Quale è il paese che produce meno emissioni di CO2 pro capite? (stato 2020);Portogallo;-5 EcoScore;;Svizzera;Svezia;Italia;;;+10 EcoScore;END
+Qual è il paese che produce più emissioni di CO2 pro capite? (stato 2020);Cina;;;Qatar;USA;Arabia Saudita;4000 euro;;;END
 Quale percentuale della popolazione mondiale vive in condizioni di estrema povertà? (stato 2020) La povertà estrema è definita come meno di 1,9 dollari al giorno.;9,5%(margine di +-5%);-5 EcoScore;;;;;;;;END
-Nella storia documentata, c'è mai stata pace in tutto il mondo?;No;;Spostati alla stazione di polizia epoi salti 2 turni.;;;;;;;END
+Nella storia documentata, c'è mai stata pace in tutto il mondo?;No;;Spostati alla stazione di polizia e poi salti 2 turni.;;;;;;;END
 Cosa ti aspetteresti se qualcuno ti promettesse la libertà? (Domanda aperta);;1000-5000 euro;;;;;;;;END
-Qual è la tua opinione su una quota femminile o una quota di genere? (Domanda aperta);;100-500 euro di aumento di stipendio;;;;;;;;END
+Qual è la tua opinione sulle quote femminili o le quote di genere? (Domanda aperta);;100-500 euro di aumento di stipendio;;;;;;;;END
 Quante guerre ci sono state nel mondo nel 2021?;22; Tira di nuovo il dado;;30;8;100;;;;END
 Quanti Stati membri ha l'UE?;27;-5 EcoScore;;30;15;22;;+5 EcoScore;;FINE
-Secondo vari studi, quanto costerebbe ogni anno, in aggiunta, porre fine alla fame nel mondo entro il 2030? Attualmente la società internazionale spende 12 miliardi di dollari all'anno. (Risposta in miliardi di dollari);14 (Margine di +-5);-5 EcoScore;;;;;;;;END
-Quanta superficie di pannelli solari sarebbe necessaria per sostituire la produzione di una centrale nucleare media?;66 chilometri quadrati;Avanza 7 caselle;;6 chilometri quadrati;200000 metri quadrati;2000 chilometri quadrati;;;Salta un turno;FINE
+Secondo vari studi, quanto costerebbe ogni anno, debellare la fame nel mondo entro il 2030? Attualmente la società internazionale spende 12 miliardi di dollari all'anno. (Risposta in miliardi di dollari);14 (Margine di +-5);-5 EcoScore;;;;;;;;END
+Quanta superficie di pannelli solari sarebbe necessaria per sostituire la produzione di una centrale nucleare media?;66 chilometri quadrati;Avanza di 7 caselle;;6 chilometri quadrati;200000 metri quadrati;2000 chilometri quadrati;;;Salta un turno;FINE
 Insieme a un compagno di squadra di tua scelta, trovate 5 cose che potreste cambiare nella vostra vita quotidiana per vivere in modo più sostenibile. Il compagno di squadra riceve il 50% della ricompensa. (domanda aperta);;-2 EcoScore per cambiamento;;;;;;;;END
-Quali sono i Paesi più a rischio per il riscaldamento globale?;Paesi sul mare e paesi all'equatore;Lancia di nuovo il dado. (Una delle due risposte è sufficiente);;;;;;;;END
+Quali sono i paesi più a rischio per il riscaldamento globale?;Paesi sul mare e paesi all'equatore;Lancia di nuovo il dado. (Una delle due risposte è sufficiente);;;;;;;;END
 Oltre ai combustibili fossili e all'elettricità, quale fonte energetica potrebbe essere utilizzata in futuro per alimentare i veicoli?;Idrogeno;-5 EcoScore;+5 EcoScore;;;;;;;END
-Tra i motori elettrici e i motori a combustione interna tradizionali, qual è il migliore per l'ambiente, secondo le tue conoscenze e la tua opinione? (domanda aperta);;-(1 - 5) EcoScore;;;;;;;;END
-Trova argomenti pro o contra sull'inflazione dal punto di vista di uno cittadino commune. massimo 5 (domanda aperta);;+ 500 euro per argomento;;;;;;;;END
-Perché la produzione di massa, ad esempio di frutta e verdura, ha un impatto sul clima?;Le piantagioni richiedono molto spazio, spesso generato dal disboscamento di foreste vergini. Questo provoca enormi danni alla natura e rilascia molte emissioni.;5000 Euro;;;;;;;;END
-Come si chiama l'azione di protesta organizzata principalmente dagli studenti delle scuole, a volte con cadenza settimanale?;Fridays for Future;-2 EcoScore;-2000 Euro;;;;;;;END
-Chi ha contribuito alle azioni di protesta settimanali a cui partecipano anche molti scolari altoatesini?;Greta Thunberg;-1 EcoScore + 5000 Euro;-1000 Euro;;;;;;;END
-Il modo in cui ogni individuo commercia ha un impatto decisivo sullo sviluppo del nostro problema climatico? (domanda aperta);;-5 - 5 EcoScore;;;;;;;;END
-In termini di sostenibilità, fa differenza in quale banca investite il vostro denaro? Spiega;Sì, perché le banche investono la maggior parte del loro capitale. Molti investono nell'industria dei combustibili fossili grazie ai buoni rendimenti.;4000 Euro;10 EcoScore;;;;;;;END
-Qual è la maggiore fonte di gas serra tra queste opzioni?;Trasporti;;Agricoltura e alimentazione animale; Industria; Rifiuti;;Lancia di nuovo il dado;;FINE
-I 17 Obiettivi globali fanno parte di quale trattato globale?;L'Agenda 2030;-5 EcoScore;;;;;;;;END
+Secondo te quale tra il motore elettrico e il motore a combustione tradizionale, è il meglio per l'ambiente? (domanda aperta);;-(1 - 5) EcoScore;;;;;;;;END
+Trova argomenti a favore e contro l'inflazione dal punto di vista di uno cittadino comune. massimo 5 (domanda aperta);;+ 500 euro per argomento;;;;;;;;END
+Perché la produzione di massa, ad esempio di frutta e verdura, ha un impatto sul clima?;Le piantagioni richiedono molto spazio, spesso generato tramite il disboscamento di foreste vergini. Questo provoca enormi danni alla natura e rilascia molte emissioni.;5000 euro;;;;;;;;END
+Come si chiama l'azione di protesta organizzata principalmente da studenti delle scuole, a volte con cadenza settimanale?;Fridays for Future;-2 EcoScore;-2000 euro;;;;;;;END
+Chi ha iniziato le azioni di protesta settimanali alle quali partecipano anche molti studenti altoatesini?;Greta Thunberg;-1 EcoScore + 5000 euro;-1000 euro;;;;;;;END
+Puó un singole individuo attraverso le sue azioni influenzare lo sviluppo del nostro problema climatico? (domanda aperta);;-5 - 5 EcoScore;;;;;;;;END
+In termini di sostenibilità, fa differenza in quale banca investite il vostro denaro? Spiega;Sì, perché le banche investono la maggior parte del loro capitale. Molti investono nell'industria dei combustibili fossili per sfruttare i rendimenti alti.;4000 euro;10 EcoScore;;;;;;;END
+Quale delle opzioni seguenti è la maggiore fonte di gas serra?;Trasporti;;Agricoltura e alimentazione animale; Industria; Rifiuti;;Lancia di nuovo il dado;;FINE
+I 17 Global Goalsfanno parte di quale trattato globale?;L'Agenda 2030;-5 EcoScore;;;;;;;;END
 Quale dei seguenti è un gas a effetto serra?;CO2;-1 EcoScore;;CH4;Vapore acqueo;Tutti i precedenti;-1 EcoScore;-1 EcoScore;-5 EcoScore;END
-Quanti bambini muoiono ogni giorno a causa della povertà?;22.000 (margine +-10000);4000 Euro;;;;;;;;END
+Quanti bambini muoiono ogni giorno a causa della povertà?;22.000 (margine +-10000);4000 euro;;;;;;;;END
 Quale percentuale dell'umanità (in %) vive senza elettricità?;25% (margine del 5%);-5 EcoScore;+3 EcoScore;;;;;;;END
-L'1,2% dei più ricchi della popolazione mondiale quale quota della ricchezza mondiale (in %) deterrà nel 2020?;47,8% (margine del 5%);-5 EcoScore + 7500 Euro;;;;;;;;END
-Il 53% della popolazione mondiale più povero quale quota della ricchezza mondiale (in %) possiederà nel 2020?;1,1% (margine del 3%); Tira di nuovo il dado;(se superiore al 20%) -5000 Euro + 5 EcoScore;;;;;;;END
+Quale quota di ricchezza (in %) possedeva l'1,2% più ricco della popolazione mondiale nel 2020?;47,8% (margine del 5%);-5 EcoScore + 7500 euro;;;;;;;;END
+Quale quota di ricchezza (in %) possedevano i 53% più poveri della popolazione mondiale nel 2020?;1,1% (margine del 3%); Tira di nuovo il dado;(se risposta superiore di 20%) -5000 euro + 5 EcoScore;;;;;;;END
 Vero o falso: i disastri ambientali come le piogge intense o gli uragani non hanno alcun legame con il cambiamento climatico;Falso;Tira di nuovo il dado;+10 EcoScore;;;;;;;END
 Vero o falso: l'Agenda 2030 è una guida per un futuro sostenibile.;Falso;-3 EcoScore;+5 EcoScore;;;;;;;END
 Da chi provengono i Global Goals?;Nazioni Unite;Lancia di nuovo il dado;+5 EcoScore;;;;;;;END
 Per quanto tempo l'anidride carbonica può rimanere nell'atmosfera?;Fino a un anno;;-1000 euro;Fino a 10 anni;Fino a 100 anni;Fino a 1000 anni;2000 euro;;FINE
-Dove si estrae più litio?;Australia;1000 Euro;;Cile;Cina;Italia;;;;END
-Quali organizzazione ambientalista non esiste?;Greenpeace;;+10 EcoScore;Robin Ocean;Earth First;NABU;-3 EcoScore;+10 EcoScore;+ 10 EcoScore;END
-Perché le piogge abbondanti stanno diventando più intense?;È perché il cambiamento climatico sta facendo aumentare la temperatura dell'aria. In questo modo si crea più vapore acqueo. L'aria calda può assorbire più umidità. Più alto è il contenuto di vapore acqueo, più acqua possono assorbire le nuvole e più pesanti sono le precipitazioni al suolo.;10000 Euro;;;;;;;;END
-Pensa che le auto elettriche saranno il futuro? Sì o No? (domanda aperta);;Per argomento 500 Euro (Massimo 5);;;;;;;;END
-Secondo te, le azioni del gruppo "Last Generation" sono troppo radicali? Sì o No? (domanda aperta);;Per argomento 500 euro (massimo 5);;;;;;;;END
-Come si può contrastare il cambiamento climatico a livello aziendale o politico? (domanda aperta);;1000 - 5000 Euro;;;;;;;;END
+In quale paese si estrae più litio?;Australia;1000 euro;;Cile;Cina;Italia;;;;END
+Quale organizzazione ambientalista non esiste?;Greenpeace;;+10 EcoScore;Robin Ocean;Earth First;NABU;-3 EcoScore;+10 EcoScore;+ 10 EcoScore;END
+Perché le piogge forti stanno diventando più intense?;Perché il cambiamento climatico sta facendo aumentare la temperatura dell'aria. In questo modo si crea più vapore. L'aria calda può assorbire più umidità. Più alto è il contenuto di vapore acqueo, più acqua possono assorbire le nuvole e più pesanti sono le precipitazioni al suolo.;10000 euro;;;;;;;;END
+Secondo te le auto elettriche saranno la soluzione del futuro? Sì o No? (domanda aperta);;Per ogni argomento 500 euro (Massimo 5);;;;;;;;END
+Secondo te, le azioni del gruppo "Last Generation" sono troppo radicali? Sì o No? (domanda aperta);;Per ogni argomento 500 euro (massimo 5);;;;;;;;END
+Come si può contrastare il cambiamento climatico a livello aziendale o politico? (domanda aperta);;1000 - 5000 euro;;;;;;;;END
 Perché ridurre il consumo di carne fa bene al clima?;Se si consuma meno carne, si devono allevare meno animali e quindi si riduce l'uso di risorse come il suolo, l'acqua e l'energia.;-5 Ecoscore;;;;;;;;END
-La carne costituisce il 9% della nostra dieta totale. Quante emissioni di gas serra nella dieta provengono dalla produzione di carne?;43%;-5 EcoScore;;22%;9%;81,2%;;+10 EcoScore;;FINE
+La carne costituisce mediamente il 9% della nostra dieta. Quante emissioni di gas serra nella dieta provengono dalla produzione di carne?;43%;-5 EcoScore;;22%;9%;81,2%;;+10 EcoScore;;FINE
 Qual è l'area media di foresta disboscata al giorno (in campi di calcio)?;420;;;4340;55;5034;Lancia di nuovo il dado;;FINE
-Perché lo scioglimento del permafrost è dannoso per il clima?;Lo scioglimento libera metano, vapore acqueo e anidride carbonica;;;Perché non si può più pattinare;Fa crescere una vegetazione diversa;Fa crescere gli iceberg;+15 EcoScore;+15 EcoScore;FINE
+Perché lo scioglimento del permafrost è dannoso per il clima?;Durante lo scioglimento si liberano metano, vapore acqueo e anidride carbonica;;;Perché non si può più pattinare;Fa crescere una vegetazione diversa;Fa crescere gli iceberg;+15 EcoScore;+15 EcoScore;FINE
 Quale gas serra contribuisce maggiormente al cambiamento climatico?;gas esilarante;;+5 EcoScore;Gas metano;Anidride carbonica;Azoto;+5 EcoScore;-5 EcoScore;+5 EcoScore;END
-Che cosa hai notato di recente nell'attivismo per il clima? (Domanda aperta);;Per evento +500 Euro (Massimo 5);;;;;;;;END
-Il clima è stato costante nel corso della storia, prima che l'uomo producesse gas serra?;No;;+10 EcoScore;;;;;;;END
-Che tipo di obiettivi comprendono i Global Goals?;Obiettivi economici;;;Obiettivi ambientali;Obiettivi sociali, economici e ambientali;Obiettivi strategici militari;5000 Euro;+40 EcoScore;FINE
-Entro quale anno le Nazioni Unite si sono impegnate a raggiungere i Global Goals?;2050;;;2040;2030;2033;;2000 Euro;;FINE
+Quali azioni recenti di attivisti per il clima ti vengono in mente? (Domanda aperta);;Per evento +500 euro (Massimo 5);;;;;;;;END
+Prima che l'uomo producesse gas serra il clima è sempre stato costante nel corso della storia?;No;;+10 EcoScore;;;;;;;END
+Che tipo di obiettivi comprendono i Global Goals?;Obiettivi economici;;;Obiettivi ambientali;Obiettivi sociali, economici e ambientali;Obiettivi strategici militari;5000 euro;+40 EcoScore;FINE
+Entro quale anno le Nazioni Unite si sono impegnate a raggiungere i Global Goals?;2050;;;2040;2030;2033;;2000 euro;;FINE
