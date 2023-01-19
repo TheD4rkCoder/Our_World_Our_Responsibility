@@ -42,8 +42,8 @@
     <string name="answer">Antwort:</string>
     <string name="change">Ändern:</string>
     <string name="confirm">Bestätigen</string>
-    <string name="it" translatable="false">IT</string>
-    <string name="de" translatable="false">DE</string>
+    <string name="it" translatable="false">it</string>
+    <string name="de" translatable="false">de</string>
 
     <string-array name="languages">
         <item>Change language</item>
