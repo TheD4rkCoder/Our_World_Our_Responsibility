@@ -86,6 +86,16 @@ public class CardActivity extends AppCompatActivity {
             } catch (IOException e) {
                 throw new RuntimeException();
             }
+        }else if(MainActivity.language.equals(getString(R.string.en))) {
+            events.clear();
+            try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("events.txt")))) {
+                for (int i = 0; i < 60; i++) {
+                    String[] temp = br.readLine().split(";");
+                    events.add(new Event(temp[0], temp[1]));
+                }
+            } catch (IOException e) {
+                throw new RuntimeException();
+            }
         }
 
         Collections.shuffle(events);

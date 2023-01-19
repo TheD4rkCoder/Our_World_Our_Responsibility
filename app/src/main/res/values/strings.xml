@@ -49,6 +49,7 @@
         <item>Change language</item>
         <item>@string/de</item>
         <item>@string/it</item>
+        <item>@string/en</item>
     </string-array>
     <string name="en" translatable="false">en</string>
 </resources>
