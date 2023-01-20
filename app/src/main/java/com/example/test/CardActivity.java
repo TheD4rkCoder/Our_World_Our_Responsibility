@@ -109,7 +109,7 @@ public class CardActivity extends AppCompatActivity {
         if(MainActivity.language.equals(getString(R.string.it))) {
             questions.clear();
             try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("domande.txt")))) {
-                for (int i = 0; i < 50; i++) {
+                for (int i = 0; i < 70; i++) {
                     String[] temp = br.readLine().split(";"), possibleAnswers, rewards;
                     // read file into arraylist Questions
                     if (!temp[6].equals("")) {
@@ -132,7 +132,7 @@ public class CardActivity extends AppCompatActivity {
         }else if(MainActivity.language.equals(getString(R.string.de))){
             questions.clear();
             try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("fragen.txt")))) {
-                for (int i = 0; i < 50; i++) {
+                for (int i = 0; i < 70; i++) {
                     String[] temp = br.readLine().split(";"), possibleAnswers, rewards;
                     // read file into arraylist Questions
                     if (!temp[6].equals("")) {
@@ -155,7 +155,7 @@ public class CardActivity extends AppCompatActivity {
         }else if(MainActivity.language.equals(getString(R.string.en))){
             questions.clear();
             try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getApplicationContext().getAssets().open("questions.txt")))) {
-                for (int i = 0; i < 50; i++) {
+                for (int i = 0; i < 69; i++) {
                     String[] temp = br.readLine().split(";"), possibleAnswers, rewards;
                     // read file into arraylist Questions
                     if (!temp[6].equals("")) {

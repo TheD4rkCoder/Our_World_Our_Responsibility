@@ -46,5 +46,24 @@ Has the climate been constant throughout history, before humans produced greenho
 What kind of goals do the Global Goals include?;Economic goals;;Environmental goals;Social, economic and environmental goals;Military strategic goals;;5000 Euro;+40 EcoScore;END
 What year have the United Nations set themselves as a target for having achieved the Global Goals?;2050;;;2040;2030;2033;;2000 Euro;;END
 Name all the SDGs (Sustainable Development Goals) you know! (open question);;-2 EcoScore for each SDG;;;;;;;;END
-Which of the following measures contributes most to the achievement of goal number 14 "Protect oceans and seas"?;Restrict deep-sea fishing;-1 EcoScore;;;Ban microplastics in cosmetics and detergents;Establish marine protected areas;All measures mentioned contribute equally;-1 EcoScore;-1 EcoScore;-3 EcoScore;END
-How many people worldwide live in slums?;around 1 million;;;;around 50 million;around 500 million;over 1 billion;;;Roll the dice again;END
+Which of the following measures contributes most to the achievement of goal number 14 "Protect oceans and seas"?;Restrict deep-sea fishing;-1 EcoScore;;Ban microplastics in cosmetics and detergents;Establish marine protected areas;All measures mentioned contribute equally;-1 EcoScore;-1 EcoScore;-3 EcoScore;END
+How many people worldwide live in slums?;around 1 million;;;around 50 million;around 500 million;over 1 billion;;;Roll the dice again;END
+Do we have a lot of time left to save our planet or do we need to act now?;We need to act now;+1000 Euro;;;;;;;;END
+Name as many causes of climate change as you know! (open question);;500 Euro for each argument;;;;;;;;END
+In your opinion what are the main contributors to climate change? (open Question);;+500 Euro for each argument;;;;;;;;ENE
+Is climate change caused by humans?;yes;-1 EcoScore;+5 Ecoscore;;;;;;;;END
+How is climate change affecting animals? (open question);;-2 EcoScore for each argument;;;;;;;;END
+Name some effects of climate change that we can notice!;;-2 EcoScore for each argument;;;;;;;;END
+Is the sun the cause of global warming?;no;-2 Ecoscore;+5 EcoScore;;;;;;;END
+What is the main cause of climate change?Natural climate variability;+5 EcoScore;;Human activities;Solar radiation;Volcanic eruptions;-2 EcoScore;+5 Ecoscore;+5 EcoScore;END
+Which of the following is not a greenhouse gas?;Carbon dioxide;-1000 Euro;;Methane;Oxzgen;Nitrogen;-1000 Euro;+1000 Euro; +1000 Euro;END
+How does climate change affect sea level?;It causes sea levels to rise;-1 EcoScore;;It causes sea levels to fall;It has no effect on sea levels;It causes sea levels to fluctuate;+10 EcoScore;+10 EcoScore;+10 EcosScore;END
+What is one way in which individuals can help to reduce their carbon footprint?;Driving a gas-guzzling vehicle;-5 EcoScore;;Eating meat and dairy products;Using public transportation or biking instead of using the car;Changing shoe size;;+1000 Euro;;END
+What do you think? Does every child have the cahnce to go to school?;no;;-2000 Euro;;;;;;;END
+What can be done so that every child has the chance to go to school? (open question);;500 Euro for each argument;;;;;;;;END
+How many children on Earth do not have the chance to go to school?;10000 girls and 5000 boys;;;5 million girls and 5 million boys;34 million girls and 30 million boys;50 million girls and 80 million boys;;+2000 Euro;;END
+On which continents do the fewest children attend school?;America and Europe;+5 EcoScore;;Europe and Australia;Asia and Africa;Australia and Africa;+5 EcoScore;+500 Euro;+5 EcoScore;END
+How much water es needed to produce a pair of jeans?;20 liters;;;100 liters;1000 liters;7500 liters;;;2000 Euro;END
+Why is the ocean important for the environment? (open question);;500 Euro for each argument;;;;;;;;END
+Which of the following ways to produce energy is not environmentally friendly?;solar power;+10 EcoScore;;coal power;wind power;hydro power;;+10 EcoScore;+10 EcoScore;END
+Which continent has the weakest economy?;Asia;-1000 Euro;;Europe;South America;Africa;-1000 Euro;-1000 Euro;;END
