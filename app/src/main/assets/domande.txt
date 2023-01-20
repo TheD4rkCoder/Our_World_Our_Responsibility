@@ -45,3 +45,6 @@ Quali azioni recenti di attivisti per il clima ti vengono in mente? (Domanda ape
 Prima che l'uomo producesse gas serra il clima è sempre stato costante nel corso della storia?;No;;+10 EcoScore;;;;;;;END
 Che tipo di obiettivi comprendono i Global Goals?;Obiettivi economici;;;Obiettivi ambientali;Obiettivi sociali, economici e ambientali;Obiettivi strategici militari;5000 euro;+40 EcoScore;FINE
 Entro quale anno le Nazioni Unite si sono impegnate a raggiungere i Global Goals?;2050;;;2040;2030;2033;;2000 euro;;FINE
+Dimmi tutti gli SDG (Obiettivi di Sviluppo Sostenibile) che conosci! (domanda aperta);;-2 EcoScore per ogni SDG;;;;;;;;END
+Quale delle seguenti misure contribuisce maggiormente al raggiungimento dell'obiettivo numero 14 "Proteggere gli oceani e i mari"?;Limitare la pesca d'altura;-1 EcoScore;;;Vietare le microplastiche nei cosmetici e nei detergenti;Istituire aree marine protette;Tutte le misure contribuiscono ugualmente;-1 EcoScore;-1 EcoScore;-3 EcoScore;FINE
+Quante persone nel mondo vivono nelle baraccopoli?;circa 1 milione;;;;circa 50 milioni;circa 500 milioni;oltre 1 miliardo;;;Tira di nuovo i dadi;FINE
