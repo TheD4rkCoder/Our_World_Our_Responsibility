@@ -45,3 +45,6 @@ Was haben Sie von dem Klimaaktivismus in letzter Zeit mitbekommen? (Offene Frage
 War das Klima in der Geschichte immer konstant, bevor die Menschen Treibhausgase erzeugten?;Nein;;+10 EcoScore;;;;;;;END
 Welche Art von Zielen umfassen die Global Goals?;Wirtschaftliche Ziele;;;Umweltziele;Soziale, wirtschaftliche und Umweltziele;Militärstrategische Ziele;;5000 Euro;+40 EcoScore;END
 Bis zu welchem Jahr haben die Vereinten Nationen sich zum Erreichen der Global Goals verpflichtet?;2050;;;2040;2030;2033;;2000 Euro;;END
+Nenne alle SDGs (Sustainable Development Goals) die du kennst! (offene Frage);;-2 EcoScore pro SDG;;;;;;;;END
+Welche der folgenden Maßnahmen trägt am meisten zur Erreichung des Zieles Nummer 14 "Schutz der Ozeane und Meere" bei?;Einschränkung des Tiefseefischfangs;-1 EcoScore;;;Verbot von Mikroplastik in Kosmetika und Reinigungsmitteln;Errichtung von Meeresschutzgebieten;Alle ganannten Maßnahmen tragen gleichermaßen bei;-1 EcoScore;-1 EcoScore;-3 EcoScore;END
+Wie viele Menschen weltweit leben in Slums?;rund 1 Millionen;;;;rund 50 Millionen;rund 500 Millionen;über 1 Milliarde;;;Noch einmal würfeln;END

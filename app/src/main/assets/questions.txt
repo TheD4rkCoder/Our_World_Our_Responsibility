@@ -45,3 +45,6 @@ What have you noticed about climate activism recently? (Open question);;Per even
 Has the climate been constant throughout history, before humans produced greenhouse gases?;No;;+10 EcoScore;;;;;;;END
 What kind of goals do the Global Goals include?;Economic goals;;Environmental goals;Social, economic and environmental goals;Military strategic goals;;5000 Euro;+40 EcoScore;END
 What year have the United Nations set themselves as a target for having achieved the Global Goals?;2050;;;2040;2030;2033;;2000 Euro;;END
+Name all the SDGs (Sustainable Development Goals) you know! (open question);;-2 EcoScore for each SDG;;;;;;;;END
+Which of the following measures contributes most to the achievement of goal number 14 "Protect oceans and seas"?;Restrict deep-sea fishing;-1 EcoScore;;;Ban microplastics in cosmetics and detergents;Establish marine protected areas;All measures mentioned contribute equally;-1 EcoScore;-1 EcoScore;-3 EcoScore;END
+How many people worldwide live in slums?;around 1 million;;;;around 50 million;around 500 million;over 1 billion;;;Roll the dice again;END
