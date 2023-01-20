@@ -55,7 +55,7 @@ Is climate change caused by humans?;yes;-1 EcoScore;+5 Ecoscore;;;;;;;;END
 How is climate change affecting animals? (open question);;-2 EcoScore for each argument;;;;;;;;END
 Name some effects of climate change that we can notice!;;-2 EcoScore for each argument;;;;;;;;END
 Is the sun the cause of global warming?;no;-2 Ecoscore;+5 EcoScore;;;;;;;END
-What is the main cause of climate change?;Natural climate variability;+5 EcoScore;;Human activities;Solar radiation;Volcanic eruptions;-2 EcoScore;+5 Ecoscore;+5 EcoScore;END
+What is the main cause of climate change?;Natural climate variability;+5 EcoScore;;Human activities;Solar radiation;Volcanic eruptions;-2 EcoScore;+5 EcoScore;+5 EcoScore;END
 Which of the following is not a greenhouse gas?;Carbon dioxide;-1000 Euro;;Methane;Oxzgen;Nitrogen;-1000 Euro;+1000 Euro; +1000 Euro;END
 How does climate change affect sea level?;It causes sea levels to rise;-1 EcoScore;;It causes sea levels to fall;It has no effect on sea levels;It causes sea levels to fluctuate;+10 EcoScore;+10 EcoScore;+10 EcosScore;END
 What is one way in which individuals can help to reduce their carbon footprint?;Driving a gas-guzzling vehicle;-5 EcoScore;;Eating meat and dairy products;Using public transportation or biking instead of using the car;Changing shoe size;;+1000 Euro;;END

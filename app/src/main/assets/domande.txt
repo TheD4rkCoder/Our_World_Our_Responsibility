@@ -32,7 +32,7 @@ Chi ha stabilito i Global Goals?;Nazioni Unite;Lancia di nuovo il dado;+5 EcoSco
 Per quanto tempo l'anidride carbonica può rimanere nell'atmosfera?;Fino a un anno;;-1000 euro;Fino a 10 anni;Fino a 100 anni;Fino a 1000 anni;2000 euro;;FINE
 In quale paese si estrae più litio?;Australia;1000 euro;;Cile;Cina;Italia;;;;END
 Quale organizzazione ambientalista non esiste?;Greenpeace;;+10 EcoScore;Robin Ocean;Earth First;NABU;-3 EcoScore;+10 EcoScore;+ 10 EcoScore;END
-Perché le piogge forti stanno diventando più intense?;Perché il cambiamento climatico sta facendo aumentare la temperatura dell'aria. In questo modo si crea più vapore. L'aria calda può assorbire più umidità. Più alto è il contenuto di vapore acqueo, più acqua possono assorbire le nuvole e più pesanti sono le precipitazioni al suolo.;10000 euro;;;;;;;;END
+Perché le piogge forti stanno diventando più intense?;Perché il cambiamento climatico sta facendo aumentare la temperatura dell'aria. In questo modo si crea più vapore. L'aria calda può assorbire più umidità. Più alto è il contenuto di vapore acqueo, più acqua possono assorbire le nuvole e più pesanti sono le precipitazioni al suolo;10000 euro;;;;;;;;END
 Secondo te le auto elettriche saranno la soluzione del futuro? Sì o No? (domanda aperta);;Per ogni argomento 500 euro (Massimo 5);;;;;;;;END
 Secondo te, le azioni del gruppo "Last Generation" sono troppo radicali? Sì o No? (domanda aperta);;Per ogni argomento 500 euro (massimo 5);;;;;;;;END
 Come si può contrastare il cambiamento climatico a livello aziendale o politico? (domanda aperta);;1000 - 5000 euro;;;;;;;;END
