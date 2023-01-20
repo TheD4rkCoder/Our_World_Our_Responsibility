@@ -12,7 +12,7 @@ Quanta superficie di pannelli solari sarebbe necessaria per sostituire la produz
 Insieme a un compagno di squadra di tua scelta, trovate 5 cose che potreste cambiare nella vostra vita quotidiana per vivere in modo più sostenibile. Il compagno di squadra riceve il 50% della ricompensa. (domanda aperta);;-2 EcoScore per cambiamento;;;;;;;;END
 Quali sono i paesi più a rischio per il riscaldamento globale?;Paesi sul mare e paesi all'equatore;Lancia di nuovo il dado. (Una delle due risposte è sufficiente);;;;;;;;END
 Oltre ai combustibili fossili e all'elettricità, quale fonte energetica potrebbe essere utilizzata in futuro per alimentare i veicoli?;Idrogeno;-5 EcoScore;+5 EcoScore;;;;;;;END
-Secondo te quale tra il motore elettrico e il motore a combustione tradizionale, è il meglio per l'ambiente? (domanda aperta);;-(1 - 5) EcoScore;;;;;;;;END
+Secondo te quale tra il motore elettrico e il motore a combustione tradizionale, è il meglio per l'ambiente? (domanda aperta);;da -1 fino a -5 EcoScore;;;;;;;;END
 Trova argomenti a favore e contro l'inflazione dal punto di vista di uno cittadino comune. massimo 5 (domanda aperta);;+ 500 euro per argomento;;;;;;;;END
 Perché la produzione di massa, ad esempio di frutta e verdura, ha un impatto sul clima?;Le piantagioni richiedono molto spazio, spesso generato tramite il disboscamento di foreste vergini. Questo provoca enormi danni alla natura e rilascia molte emissioni.;5000 euro;;;;;;;;END
 Come si chiama l'azione di protesta organizzata principalmente da studenti delle scuole, a volte con cadenza settimanale?;Fridays for Future;-2 EcoScore;-2000 euro;;;;;;;END
