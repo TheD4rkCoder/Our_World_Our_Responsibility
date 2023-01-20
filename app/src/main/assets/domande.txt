@@ -19,7 +19,7 @@ Come si chiama l'azione di protesta organizzata principalmente da studenti delle
 Chi ha iniziato le azioni di protesta settimanali alle quali partecipano anche molti studenti altoatesini?;Greta Thunberg;-1 EcoScore + 5000 euro;-1000 euro;;;;;;;END
 Puó un singole individuo attraverso le sue azioni influenzare lo sviluppo del nostro problema climatico? (domanda aperta);;-5 - 5 EcoScore;;;;;;;;END
 In termini di sostenibilità, fa differenza in quale banca investite il vostro denaro? Spiega;Sì, perché le banche investono la maggior parte del loro capitale. Molti investono nell'industria dei combustibili fossili per sfruttare i rendimenti alti.;4000 euro;10 EcoScore;;;;;;;END
-Quale delle opzioni seguenti è la maggiore fonte di gas serra?;Trasporti;;Agricoltura e alimentazione animale; Industria; Rifiuti;;Lancia di nuovo il dado;;FINE
+Quale delle opzioni seguenti è la maggiore fonte di gas serra?;Trasporti;;;Agricoltura e alimentazione animale;Industria;Rifiuti;;Lancia di nuovo il dado;;FINE
 I 17 Global Goalsfanno parte di quale trattato globale?;L'Agenda 2030;-5 EcoScore;;;;;;;;END
 Quale dei seguenti è un gas a effetto serra?;CO2;-1 EcoScore;;CH4;Vapore acqueo;Tutti i precedenti;-1 EcoScore;-1 EcoScore;-5 EcoScore;END
 Quanti bambini muoiono ogni giorno a causa della povertà?;22.000 (margine +-10000);4000 euro;;;;;;;;END

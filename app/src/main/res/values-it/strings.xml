@@ -23,8 +23,8 @@
     <string name="fill_correctly_toast">Compila correttamente tutti i campi per favore.</string>
     <string name="reward_or_penalty">Ricompense e/o punizioni:</string>
     <string name="possible_answers">Risposte possibili</string>
-    <string name="reward">Ricompensa</string>
-    <string name="penalty">Punizione</string>
+    <string name="reward">Ricompensa:</string>
+    <string name="penalty">Punizione:</string>
     <string name="show_solution">Mostra soluzione</string>
     <string name="change_help_toast">Per ogni cambiamento serve +,-,* o / prima del numero.</string>
     <string name="locationOfJob">Luogo della professione:</string>

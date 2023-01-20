@@ -259,7 +259,7 @@ public class CardActivity extends AppCompatActivity {
                         cardText.setText((getString(R.string.answer) + " \n" + questions.get(Questions.currentCard).answer[0]).toCharArray(), 0, getString(R.string.answer).length() + 2 + questions.get(Questions.currentCard).answer[0].length());
                     }
                     if (questions.get(Questions.currentCard).penalty.equals("")) {
-                        questionAnswers.setText((getString(R.string.reward) + questions.get(Questions.currentCard).reward[0]).toCharArray(), 0, getString(R.string.reward).length() + questions.get(Questions.currentCard).reward[0].length());
+                        questionAnswers.setText((getString(R.string.reward) +"\n"+ questions.get(Questions.currentCard).reward[0]).toCharArray(), 0, getString(R.string.reward).length() + questions.get(Questions.currentCard).reward[0].length());
                     } else {
                         if(!questions.get(Questions.currentCard).reward[0].equals(""))
                         {
