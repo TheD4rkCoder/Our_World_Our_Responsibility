@@ -26,9 +26,9 @@ Quanti bambini muoiono ogni giorno a causa della povertà?;22.000 (margine +-100
 Quale percentuale dell'umanità (in %) vive senza elettricità?;25% (margine del 5%);-5 EcoScore;+3 EcoScore;;;;;;;END
 Quale quota di ricchezza (in %) possedeva l'1,2% più ricco della popolazione mondiale nel 2020?;47,8% (margine del 5%);-5 EcoScore + 7500 euro;;;;;;;;END
 Quale quota di ricchezza (in %) possedevano i 53% più poveri della popolazione mondiale nel 2020?;1,1% (margine del 3%); Tira di nuovo il dado;(se risposta superiore di 20%) -5000 euro + 5 EcoScore;;;;;;;END
-Vero o falso: i disastri ambientali come le piogge intense o gli uragani non hanno alcun legame con il cambiamento climatico;Falso;Tira di nuovo il dado;+10 EcoScore;;;;;;;END
-Vero o falso: l'Agenda 2030 è una guida per un futuro sostenibile.;Falso;-3 EcoScore;+5 EcoScore;;;;;;;END
-Da chi provengono i Global Goals?;Nazioni Unite;Lancia di nuovo il dado;+5 EcoScore;;;;;;;END
+Vero o falso: i disastri ambientali come diluvi e uragani non hanno alcun legame con il cambiamento climatico;Falso;Tira di nuovo il dado;+10 EcoScore;;;;;;;END
+Vero o falso: l'Agenda 2030 è una guida per un futuro ^^tenibile.;Falso;-3 EcoScore;+5 EcoScore;;;;;;;END
+Chi ha stabilito i Global Goals?;Nazioni Unite;Lancia di nuovo il dado;+5 EcoScore;;;;;;;END
 Per quanto tempo l'anidride carbonica può rimanere nell'atmosfera?;Fino a un anno;;-1000 euro;Fino a 10 anni;Fino a 100 anni;Fino a 1000 anni;2000 euro;;FINE
 In quale paese si estrae più litio?;Australia;1000 euro;;Cile;Cina;Italia;;;;END
 Quale organizzazione ambientalista non esiste?;Greenpeace;;+10 EcoScore;Robin Ocean;Earth First;NABU;-3 EcoScore;+10 EcoScore;+ 10 EcoScore;END

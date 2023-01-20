@@ -24,8 +24,8 @@ Autoliebhaber;Du bist mit dem Auto zur Arbeit gefahren. Dein EcoScore wird um 2 
 Hauskauf;Du kaufst ein Haus. Wähle: Klimahaus Zertifikat A+. Zahle 10.000€ und dein EcoScore wird um 5 verringert oder Klimahaus Zertifikat G. Zahle 2.000€ und dein EcoScore steigt um 2.
 Haus bricht zusammen!;Dein Haus muss nach einem Dachschaden renoviert werden. Zahle 1.000€
 Tornado;Deine Umgebung wird von einem Tornado verwüstet. Alle Spieler im aktuellen Gebiet zahlen 600€ Schadensbehebung.
-Geistesblitz;Rücke zum Feld Universität vor!
-Geistesblitz;Rücke zum Feld Universität vor!
+Geistesblitz;Rücke zum Feld Schule vor!
+Geistesblitz;Rücke zum Feld Schule vor!
 Klimakleber;Klimaaktivisten haben sich auf der Straße festgeklebt. Der EcoScore aller Spieler in der Stadt verringert sich um 2. Zusätzlich werden die nächsten 3 Züge aller Spieler in der Stadt auf 1 verringert.
 Klimakleber;Klimaaktivisten haben sich auf der Straße festgeklebt. Der EcoScore aller Spieler in der Stadt verringert sich um 2. Zusätzlich werden die nächsten 3 Züge aller Spieler in der Stadt auf 1 verringert.
 Straßenschneider;Du hast dem Spieler auf deiner rechten Seite die Vorfahrt genommen. Du musst dem Spieler auf deiner rechten Seite 200€ zahlen.
@@ -49,11 +49,11 @@ Wissensquiz!;Alle Spieler werden zu einem Wissensquiz eingeladen. Jeder Spieler 
 Gute Laune!;Du bist heute sehr gut gelaunt. Du gibst jedem deiner Mitspieler 100€.
 Radunfall!;Du hattest einen Radunfall. Gehe von deinem aktuellen Standort in unter 3 Zügen zum Feld Polizei. Solltest du es in 3 oder weniger Zügen schaffen, erhältst du 1000€. Solltest du das nicht schaffen, musst du die Verantwortung für den Autounfall übernehmen und 1000€ zahlen.
 Radunfall!;Du hattest einen Radunfall. Gehe von deinem aktuellen Standort in unter 3 Zügen zum Feld Polizei. Solltest du es in 3 oder weniger Zügen schaffen, erhältst du 1000€. Solltest du das nicht schaffen, musst du die Verantwortung für den Autounfall übernehmen und 1000€ zahlen.
-Weiterbildung!;Gehe von deinem aktuellen Standpunkt zum Feld Bildungsgebäude.
-Weiterbildung!;Gehe von deinem aktuellen Standpunkt zum Feld Bildungsgebäude.
+Weiterbildung!;Gehe von deinem aktuellen Standpunkt zum Feld Schule.
+Weiterbildung!;Gehe von deinem aktuellen Standpunkt zum Feld Schule.
 Skifahren!;Du willst für einen Wochenendtrip Skifahren gehen. Begib dich von deinem aktuellen Standort in unter 4 Zügen zum Gletscherfeld. Solltest du das nicht in 4 oder weniger Zügen schaffen, musst du für 1 Runde aussetzen.
 S1: Schlauer als das Quiz!;Du erhältst bei einer beliebigen Fragenkarte die Belohnung, ohne die Frage beantworten zu müssen, musst die Entscheidung jedoch treffen, ohne die Karte zuvor zu lesen.
-S2: Fliegen ohne Flieger;Du erhältst ein Flugticket, bei dem dir die Gebühren erstattet werden.Dein EcoScore wird trotzdem erhöht.
+S2: Fliegen ohne Flieger;Du erhältst ein Flugticket, bei dem dir die Gebühren erstattet werden. Dein EcoScore wird trotzdem erhöht.
 S3: Risikofrei;Du kannst eine deiner Quizfragen an einen anderen Mitspieler weitergeben.
 S4: Bessere Investition;Zahle jetzt 100€. Für jede 5 Runden, die du die Karte behältst, wird zu deinen 100€ die du gezahlt hast 50€ addiert. Die Karte kannst du zu jedem Zeitpunkt einlösen und das Geld erhalten, solange das Spiel noch läuft.
 S5: Umweltaktivist;Du kannst eine Ereigniskarte ignorieren, musst die Entscheidung jedoch treffen, ohne die Karte zuvor zu lesen.

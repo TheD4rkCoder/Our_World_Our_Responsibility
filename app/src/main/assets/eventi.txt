@@ -24,8 +24,8 @@ Amante dell'auto;Sei andato al lavoro in auto. Il tuo EcoScore aumenta di 2.
 Acquisto di una casa;Stai acquistando una casa. Scegli: Certificato casa clima A+. Paga 25.000€ e il tuo EcoScore si riduce di 5 o Certificato casa clima G. Paga 5.000€ e il tuo EcoScore aumenta di 5.
 La casa crolla!;La tua casa deve essere ristrutturata per i danni al tetto. Paga 1.000€.
 Tornado;La tua zona è devastata da un tornado. Tutti i giocatori nella tua zona pagano 600€ per la riparazione dei danni.
-Brainstorm; Avanzare alla casella universitaria!
-Brainstorm; Avanzare alla casella universitaria!
+Brainstorm; Avanzare alla casella scuola!
+Brainstorm; Avanzare alla casella scuola!
 Colla per il clima;Gli attivisti per il clima si sono incollati in strada. L'EcoScore di tutti i giocatori della città viene ridotto di 2. Inoltre, le prossime 3 mosse di tutti i giocatori della città vengono ridotte a 1.
 Colla per il clima;Gli attivisti per il clima si sono incollati in strada. L'EcoScore di tutti i giocatori della città viene ridotto di 2. Inoltre, le prossime 3 mosse di tutti i giocatori della città vengono ridotte a 1.
 Non hai dato la precedenza!;Hai tolto il diritto di precedenza al giocatore alla tua destra. Devi pagare 200€ al giocatore alla tua destra.
@@ -49,8 +49,8 @@ Quiz di conoscenza!;Tutti i giocatori sono invitati a partecipare a un quiz di c
 Buon umore!;Oggi sei di ottimo umore. Dai 100€ a ciascuno dei tuoi compagni di gioco.
 Incidente in bicicletta!;Hai avuto un incidente in bicicletta. Avanza dalla tua posizione attuale alla casella di polizia in meno di 3 mosse. Se ci riesci in 3 mosse o meno, ricevi 1000€. Se non ce la fai, devi assumerti la responsabilità dell'incidente stradale e paghi 1000€.
 Incidente in bicicletta!;Hai avuto un incidente in bicicletta. Avanza dalla tua posizione attuale alla casella di polizia in meno di 3 mosse. Se ci riesci in 3 mosse o meno, ricevi 1000€. Se non ce la fai, devi assumerti la responsabilità dell'incidente stradale e paghi 1000€.
-Perfezionamento;Passa dalla posizione attuale alla casella dell'edilizia scolastica.
-Perfezionamento;Passa dalla posizione attuale alla casella dell'edilizia scolastica.
+Perfezionamento;Passa dalla posizione attuale alla casella scuola.
+Perfezionamento;Passa dalla posizione attuale alla casella scuola.
 Sciare;Volete andare a sciare nel fine settimana. Avanza dalla tua posizione attuale alla casella del ghiacciaio in meno di 4 mosse. Se non riesci a farlo in 4 mosse o meno, salti 1 turno.
 S1: Più intelligente del quiz!;Ottieni la ricompensa su una qualsiasi carta domanda senza dover rispondere alla domanda, ma devi prendere la decisione prima di leggere la carta.
 S2: Volare senza aereo;Ottieni un biglietto aereo per un volo gratuito. L'EcoScore aumenta comunque.

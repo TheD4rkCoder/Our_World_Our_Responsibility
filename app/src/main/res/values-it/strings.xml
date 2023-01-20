@@ -28,7 +28,7 @@
     <string name="show_solution">Mostra soluzione</string>
     <string name="change_help_toast">Per ogni cambiamento serve +,-,* o / prima del numero.</string>
     <string name="locationOfJob">Luogo della professione:</string>
-    <string name="month">Mese</string>
+    <string name="month">turno</string>
     <string name="you_get_in_the_next">Nei prossimi</string>
     <string name="rounds_no_salary">turni non ricevi stipendio</string>
     <string name="answer">Risposta</string>

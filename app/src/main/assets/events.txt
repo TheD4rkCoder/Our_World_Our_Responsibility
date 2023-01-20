@@ -24,8 +24,8 @@ Car lover;You drove to work by car. Your EcoScore is increased by 2.
 House shopping;You are buying a house. Choose: Climate house certificate A+. Pay 10,000€ and your EcoScore is reduced by 5 or Climate house certificate G. Pay 2,000€ and your EcoScore increases by 2.
 House collapses!;Your house needs renovation after roof damage. Pay 1.000€.
 Tornado;Your area is devastated by a tornado. All players in the current area pay 600€ in damage repair.
-Brainstorm;Advance to the University field!
-Brainstorm;Advance to the University field!
+Brainstorm;Advance to the school field!
+Brainstorm;Advance to the school field!
 Climate stickers;Climate activists have stuck themselves on the street. The EcoScore of all players in the city is reduced by 2. In addition, the next 3 moves of all players in the city are reduced to 1.
 Climate stickers;Climate activists have stuck themselves on the street. The EcoScore of all players in the city is reduced by 2. In addition, the next 3 moves of all players in the city are reduced to 1.
 Street cutter;You have taken the right of way from the player on your right. You have to pay 200€ to the player on your right.
@@ -49,11 +49,11 @@ Knowledge quiz!;All players are invited to take part in a knowledge quiz. Each p
 Good mood!;You are in a very good mood today. You give each of your fellow players 100€.
 Cycling accident!;You have had a cycling accident. Go from your current location to the police field in less than 3 moves. If you make it in 3 moves or less, you will receive 1000€. If you don't make it, you have to take responsibility for the car accident and pay 1000€.
 Cycling accident!;You have had a cycling accident. Go from your current location to the police field in less than 3 moves. If you make it in 3 moves or less, you will receive 1000€. If you don't make it, you have to take responsibility for the car accident and pay 1000€.
-Advanced education!;Go from your current position to the Education Building field.
-Advanced education!;Go from your current position to the Education Building field.
+Advanced education!;Go from your current position to the school field.
+Advanced education!;Go from your current position to the school field.
 Skiing;You want to go skiing for a weekend trip. Go from your current location to the glacier field in under 4 moves. If you cannot do this in 4 moves or less, you will have to sit out for 1 round.
 S1: Smarter than the quiz!;You get the reward on any question card without having to answer the question, but you must make the decision without reading the card first.
-S2: Fly without a plane;You get a plane ticket where the fees are refunded to you.Your EcoScore is increased anyway.
+S2: Fly without a plane;You get a plane ticket where the fees are refunded to you. Your EcoScore is increased anyway.
 S3: Risk-free;You can give one of your quiz questions to another player.
 S4: Better investment;Pay 100€ now. For every 5 rounds you keep the card, 50€ will be added to the 100€ you paid. You can redeem the card at any time and get the money while the game is still running.
 S5: Environmentalist;You can ignore an event card, but you must make the decision without reading the card first.
