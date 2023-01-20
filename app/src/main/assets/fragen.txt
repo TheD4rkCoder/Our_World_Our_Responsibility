@@ -17,7 +17,7 @@ Was ist zwischen Elektromotoren und herkömmlichen Verbrennern nach deinem Wisse
 Weshalb wirkt sich die Massenproduktion von z.B. Obst und Gemüse auf das Klima aus?;Für Plantagen benötigt es viel Platz, welcher häufig durch das Roden von Urwäldern generiert wird. Dadurch wird die Natur enorm beschädigt und viele Emissionen freigegeben.;5000 Euro;;;;;;;;END
 Wie wird die Protestaktion genannt, die vor allem von Schülern teilweise wöchentlich veranstaltet wird?;Fridays for Future;-2 EcoScore;-2000 Euro;;;;;;;END
 Wer war maßgebend für wöchentliche Protestaktionen, bei denen auch viele Schüler Südtirols teilnehmen?;Greta Thunberg;-1 EcoScore + 5000 Euro;-1000 Euro;;;;;;;END
-Ist die Handelsweise eines jeden Einzelnen ausschlaggebend auf die Entwicklung unseres Klimaproblems? (offene Frage);;-5 - 5 EcoScore;;;;;;;;END
+Ist die Handelsweise eines jeden Einzelnen ausschlaggebend für die Entwicklung unseres Klimaproblems? (offene Frage);;-5 - 5 EcoScore;;;;;;;;END
 Macht es mit Blick auf die Nachhaltigkeit einen Unterschied, in welcher Bank man sein Geld anlegt? Erkläre.;Ja, da Banken den Großteil ihres Kapitals investieren. Viele investieren in die fossile Industrie wegen der guten Rendite.;4000 Euro;10 EcoScore;;;;;;;END
 Was ist die größte Quelle der Treibhausgase unter diesen Optionen?;Transport;;;Landwirtschaft und Tiernahrung;Industrie;Abfall;;Noch einmal würfeln;;END
 Die 17 Global Goals gehören zu welchem globalen Vertrag?;Die Agenda 2030;-5 EcoScore;;;;;;;;END
