@@ -249,21 +249,20 @@ public class CardActivity extends AppCompatActivity {
                         questionAnswers.append("D: " + questions.get(Questions.currentCard).reward[3]);
                     }
                 } else if (questions.get(Questions.currentCard).answer.length == 2) {
-                    cardText.setText((getString(R.string.possible_answers) + "\n1. " + questions.get(Questions.currentCard).answer[0] +
-                            "\n2. " + questions.get(Questions.currentCard).answer[1]).toCharArray(), 0, getString(R.string.possible_answers).length() + 3 + questions.get(Questions.currentCard).answer[0].length() + questions.get(Questions.currentCard).answer[1].length());
+                    cardText.setText((getString(R.string.possible_answers) + "\n1. " + questions.get(Questions.currentCard).answer[0] + "\n2. " + questions.get(Questions.currentCard).answer[1]));
 
-                    questionAnswers.setText((getString(R.string.reward) + " \n" + questions.get(Questions.currentCard).reward[0]).toCharArray(), 0, getString(R.string.reward).length()  + 2 + questions.get(Questions.currentCard).reward[0].length());
+                    questionAnswers.setText((getString(R.string.reward) + " \n" + questions.get(Questions.currentCard).reward[0]));
 
                 } else {
                     if (!questions.get(Questions.currentCard).answer[0].equals("")) {
-                        cardText.setText((getString(R.string.answer) + " \n" + questions.get(Questions.currentCard).answer[0]).toCharArray(), 0, getString(R.string.answer).length() + 2 + questions.get(Questions.currentCard).answer[0].length());
+                        cardText.setText((getString(R.string.answer) + " \n" + questions.get(Questions.currentCard).answer[0]));
                     }
                     if (questions.get(Questions.currentCard).penalty.equals("")) {
-                        questionAnswers.setText((getString(R.string.reward) +"\n"+ questions.get(Questions.currentCard).reward[0]).toCharArray(), 0, getString(R.string.reward).length() + questions.get(Questions.currentCard).reward[0].length());
+                        questionAnswers.setText((getString(R.string.reward) +"\n"+ questions.get(Questions.currentCard).reward[0]));
                     } else {
                         if(!questions.get(Questions.currentCard).reward[0].equals(""))
                         {
-                            questionAnswers.setText((getString(R.string.reward) + " \n" + questions.get(Questions.currentCard).reward[0]).toCharArray(), 0, getString(R.string.reward).length() + 2 + questions.get(Questions.currentCard).reward[0].length());
+                            questionAnswers.setText((getString(R.string.reward) + " \n" + questions.get(Questions.currentCard).reward[0]));
                         }
                         questionAnswers.append("\n" + getString(R.string.penalty) + "\n" + questions.get(Questions.currentCard).penalty);
                     }
@@ -281,7 +280,7 @@ public class CardActivity extends AppCompatActivity {
         }
         continueButton.setOnClickListener(showResultClick);
         continueButton.setText(getString(R.string.show_solution));
-        cardTitle.setText(questions.get(Questions.currentCard).question.toCharArray(), 0, questions.get(Questions.currentCard).question.length());
+        cardTitle.setText(questions.get(Questions.currentCard).question);
         cardTitle.setTextSize(20);
         questionAnswers.setTextSize(15);
         cardText.setTextSize(15);
@@ -290,7 +289,7 @@ public class CardActivity extends AppCompatActivity {
             cardText.setText(("A: " + questions.get(Questions.currentCard).answer[0] +
                     "\nB: " + questions.get(Questions.currentCard).answer[1] +
                     "\nC: " + questions.get(Questions.currentCard).answer[2] +
-                    "\nD: " + questions.get(Questions.currentCard).answer[3]).toCharArray(), 0, 15 + questions.get(Questions.currentCard).answer[0].length() + questions.get(Questions.currentCard).answer[1].length() + questions.get(Questions.currentCard).answer[2].length() + questions.get(Questions.currentCard).answer[3].length());
+                    "\nD: " + questions.get(Questions.currentCard).answer[3]));
         }
 
         //questionAnswers.setText("A: B\nB: C\nC: Ä".toCharArray(), 0, 14);

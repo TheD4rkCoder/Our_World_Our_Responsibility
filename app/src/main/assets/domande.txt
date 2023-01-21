@@ -20,16 +20,16 @@ Chi ha iniziato le azioni di protesta settimanali alle quali partecipano anche m
 Puó un singole individuo attraverso le sue azioni influenzare lo sviluppo del nostro problema climatico? (domanda aperta);;-5 - 5 EcoScore;;;;;;;;END
 In termini di sostenibilità, fa differenza in quale banca investite il vostro denaro? Spiega;Sì, perché le banche investono la maggior parte del loro capitale. Molti investono nell'industria dei combustibili fossili per sfruttare i rendimenti alti.;4000 euro;10 EcoScore;;;;;;;END
 Quale delle opzioni seguenti è la maggiore fonte di gas serra?;Trasporti;;;Agricoltura e alimentazione animale;Industria;Rifiuti;;Lancia di nuovo il dado;;FINE
-I 17 Global Goalsfanno parte di quale trattato globale?;L'Agenda 2030;-5 EcoScore;;;;;;;;END
+I 17 Global Goals fanno parte di quale trattato globale?;L'Agenda 2030;-5 EcoScore;;;;;;;;END
 Quale dei seguenti è un gas a effetto serra?;CO2;-1 EcoScore;;CH4;Vapore acqueo;Tutti i precedenti;-1 EcoScore;-1 EcoScore;-5 EcoScore;END
 Quanti bambini muoiono ogni giorno a causa della povertà?;22.000 (margine +-10000);4000 euro;;;;;;;;END
 Quale percentuale dell'umanità (in %) vive senza elettricità?;25% (margine del 5%);-5 EcoScore;+3 EcoScore;;;;;;;END
 Quale quota di ricchezza (in %) possedeva l'1,2% più ricco della popolazione mondiale nel 2020?;47,8% (margine del 5%);-5 EcoScore + 7500 euro;;;;;;;;END
 Quale quota di ricchezza (in %) possedevano i 53% più poveri della popolazione mondiale nel 2020?;1,1% (margine del 3%); Tira di nuovo il dado;(se risposta superiore di 20%) -5000 euro + 5 EcoScore;;;;;;;END
 Vero o falso: i disastri ambientali come diluvi e uragani non hanno alcun legame con il cambiamento climatico;Falso;Tira di nuovo il dado;+10 EcoScore;;;;;;;END
-Vero o falso: l'Agenda 2030 è una guida per un futuro ^^tenibile.;Falso;-3 EcoScore;+5 EcoScore;;;;;;;END
+Vero o falso: l'Agenda 2030 è una guida per un futuro sostenibile.;Falso;-3 EcoScore;+5 EcoScore;;;;;;;END
 Chi ha stabilito i Global Goals?;Nazioni Unite;Lancia di nuovo il dado;+5 EcoScore;;;;;;;END
-Per quanto tempo l'anidride carbonica può rimanere nell'atmosfera?;Fino a un anno;;-1000 euro;Fino a 10 anni;Fino a 100 anni;Fino a 1000 anni;2000 euro;;FINE
+Per quanto tempo l'anidride carbonica può rimanere nell'atmosfera?;Fino a un anno;;-1000 euro;Fino a 10 anni;Fino a 100 anni;Fino a 1000 anni;2000 euro;;;FINE
 In quale paese si estrae più litio?;Australia;1000 euro;;Cile;Cina;Italia;;;;END
 Quale organizzazione ambientalista non esiste?;Greenpeace;;+10 EcoScore;Robin Ocean;Earth First;NABU;-3 EcoScore;+10 EcoScore;+ 10 EcoScore;END
 Perché le piogge forti stanno diventando più intense?;Perché il cambiamento climatico sta facendo aumentare la temperatura dell'aria. In questo modo si crea più vapore. L'aria calda può assorbire più umidità. Più alto è il contenuto di vapore acqueo, più acqua possono assorbire le nuvole e più pesanti sono le precipitazioni al suolo;10000 euro;;;;;;;;END
@@ -38,31 +38,31 @@ Secondo te, le azioni del gruppo "Last Generation" sono troppo radicali? Sì o N
 Come si può contrastare il cambiamento climatico a livello aziendale o politico? (domanda aperta);;1000 - 5000 euro;;;;;;;;END
 Perché ridurre il consumo di carne fa bene al clima?;Se si consuma meno carne, si devono allevare meno animali e quindi si riduce l'uso di risorse come il suolo, l'acqua e l'energia.;-5 Ecoscore;;;;;;;;END
 La carne costituisce mediamente il 9% della nostra dieta. Quante emissioni di gas serra nella dieta provengono dalla produzione di carne?;43%;-5 EcoScore;;22%;9%;81,2%;;+10 EcoScore;;FINE
-Qual è l'area media di foresta disboscata al giorno (in campi di calcio)?;420;;;4340;55;5034;Lancia di nuovo il dado;;FINE
-Perché lo scioglimento del permafrost è dannoso per il clima?;Durante lo scioglimento si liberano metano, vapore acqueo e anidride carbonica;;;Perché non si può più pattinare;Fa crescere una vegetazione diversa;Fa crescere gli iceberg;+15 EcoScore;+15 EcoScore;FINE
+Qual è l'area media di foresta disboscata al giorno (in campi di calcio)?;420;;;4340;55;5034;Lancia di nuovo il dado;;;FINE
+Perché lo scioglimento del permafrost è dannoso per il clima?;Durante lo scioglimento si liberano metano, vapore acqueo e anidride carbonica;;;Perché non si può più pattinare;Fa crescere una vegetazione diversa;Fa crescere gli iceberg;+15 EcoScore;+15 EcoScore;+15 EcoScore;FINE
 Quale gas serra contribuisce maggiormente al cambiamento climatico?;gas esilarante;;+5 EcoScore;Gas metano;Anidride carbonica;Azoto;+5 EcoScore;-5 EcoScore;+5 EcoScore;END
 Quali azioni recenti di attivisti per il clima ti vengono in mente? (Domanda aperta);;Per evento +500 euro (Massimo 5);;;;;;;;END
 Prima che l'uomo producesse gas serra il clima è sempre stato costante nel corso della storia?;No;;+10 EcoScore;;;;;;;END
-Che tipo di obiettivi comprendono i Global Goals?;Obiettivi economici;;;Obiettivi ambientali;Obiettivi sociali, economici e ambientali;Obiettivi strategici militari;5000 euro;+40 EcoScore;FINE
+Che tipo di obiettivi comprendono i Global Goals?;Obiettivi economici;;;Obiettivi ambientali;Obiettivi sociali, economici e ambientali;Obiettivi strategici militari;5000 euro;+40 EcoScore;;FINE
 Entro quale anno le Nazioni Unite si sono impegnate a raggiungere i Global Goals?;2050;;;2040;2030;2033;;2000 euro;;FINE
 Dimmi tutti gli SDG (Obiettivi di Sviluppo Sostenibile) che conosci! (domanda aperta);;-2 EcoScore per ogni SDG;;;;;;;;END
 Quale delle seguenti misure contribuisce maggiormente al raggiungimento dell'obiettivo numero 14 "Proteggere gli oceani e i mari"?;Limitare la pesca d'altura;-1 EcoScore;;Vietare le microplastiche nei cosmetici e nei detergenti;Istituire aree marine protette;Tutte le misure contribuiscono ugualmente;-1 EcoScore;-1 EcoScore;-3 EcoScore;FINE
-Quante persone nel mondo vivono nelle baraccopoli?;circa 1 milione;;;circa 50 milioni;circa 500 milioni;oltre 1 miliardo;;;Tira di nuovo i dadi;FINE
+Quante persone nel mondo vivono nelle baraccopoli?;circa 1 milione;;;circa 50 milioni;circa 500 milioni;oltre 1 miliardo;;;Tira di nuovo il dado;FINE
 How do we say "cambiamento climatico" in English?;Climate Change;;+10 EcoScore;;;;;;;END
 Do we have a lot of time left to save our planet or do we need to act now?;We need to act now;+1000 Euro;;;;;;;;END
 Name as many causes of climate change as you know! (open question);;500 Euro for each argument;;;;;;;;END
 In your opinion what are the main contributors to climate change? (open Question);;+500 Euro for each argument;;;;;;;;ENE
-Is climate change caused by humans?;yes;-1 EcoScore;+5 Ecoscore;;;;;;;;END
+Is climate change caused by humans?;yes;-1 EcoScore;+5 EcoScore;;;;;;;END
 How is climate change affecting animals? (open question);;-2 EcoScore for each argument;;;;;;;;END
-Name some effects of climate change that we can notice!;;-2 EcoScore for each argument;;;;;;;;END
-Is the sun the cause of global warming?;no;-2 Ecoscore;+5 EcoScore;;;;;;;END
-What is the main cause of climate change?Natural climate variability;+5 EcoScore;;Human activities;Solar radiation;Volcanic eruptions;-2 EcoScore;+5 Ecoscore;+5 EcoScore;END
-Which of the following is not a greenhouse gas?;Carbon dioxide;-1000 Euro;;Methane;Oxzgen;Nitrogen;-1000 Euro;+1000 Euro; +1000 Euro;END
+Name some effects of climate change that we can notice! (open question);;-2 EcoScore for each argument;;;;;;;;END
+Is the sun the cause of global warming?;no;-2 EcoScore;+5 EcoScore;;;;;;;END
+What is the main cause of climate change?;Natural climate variability;+5 EcoScore;;Human activities;Solar radiation;Volcanic eruptions;-2 EcoScore;+5 EcoScore;+5 EcoScore;END
+Which of the following is not a greenhouse gas?;Carbon dioxide;-1000 Euro;;Methane;Oxzgen;Nitrogen;-1000 Euro;+1000 Euro;+1000 Euro;END
 How does climate change affect sea level?;It causes sea levels to rise;-1 EcoScore;;It causes sea levels to fall;It has no effect on sea levels;It causes sea levels to fluctuate;+10 EcoScore;+10 EcoScore;+10 EcosScore;END
 What is one way in which individuals can help to reduce their carbon footprint?;Driving a gas-guzzling vehicle;-5 EcoScore;;Eating meat and dairy products;Using public transportation or biking instead of using the car;Changing shoe size;;+1000 Euro;;END
-What do you think? Does every child have the cahnce to go to school?;no;;-2000 Euro;;;;;;;END
-What can be done so that every child has the chance to go to school? (open question);;500 Euro for each argument;;;;;;;;END
-How many children on Earth do not have the chance to go to school?;10000 girls and 5000 boys;;;5 million girls and 5 million boys;34 million girls and 30 million boys;50 million girls and 80 million boys;;+2000 Euro;;END
+What do you think? Does every child have the opportunity to go to school?;no;;-2000 Euro;;;;;;;END
+What can be done so that every child has the opportunity to go to school? (open question);;500 Euro for each argument;;;;;;;;END
+How many children on Earth do not have the opportunity to go to school?;10000 girls and 5000 boys;;;5 million girls and 5 million boys;34 million girls and 30 million boys;50 million girls and 80 million boys;;+2000 Euro;;END
 On which continents do the fewest children attend school?;America and Europe;+5 EcoScore;;Europe and Australia;Asia and Africa;Australia and Africa;+5 EcoScore;+500 Euro;+5 EcoScore;END
 How much water es needed to produce a pair of jeans?;20 liters;;;100 liters;1000 liters;7500 liters;;;2000 Euro;END
 Why is the ocean important for the environment? (open question);;500 Euro for each argument;;;;;;;;END
